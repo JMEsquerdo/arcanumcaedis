@@ -1,0 +1,79 @@
+// -------------------------------
+// Tecnocracia
+// -------------------------------
+.arcana-card.tecnocracia {
+    border: 2px solid #00ffe7;
+    box-shadow: 0 0 12px rgba(0, 255, 231, 0.3);
+  
+    h2 {
+      font-family: 'Orbitron', sans-serif;
+      color: #00ffe7;
+      text-shadow: 0 0 6px rgba(0, 255, 231, 0.5);
+    }
+  }
+  
+  .tecnocracia-section {
+    padding: 3rem 2rem;
+    background-color: #0b1a2b;
+    color: #fdf6e3;
+    font-family: 'Arial', sans-serif;
+  
+    .tecnocracia-header {
+      text-align: center;
+  
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+        color: #00ffe7;
+        text-shadow: 0 0 6px rgba(0, 255, 231, 0.3);
+      }
+    }
+  
+    .tecnocracia-posts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+    }
+  
+    .tecnocracia-post {
+      background-color: #1f4068;
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+      border: 1px solid #00ffe7;
+      box-shadow: 0 0 10px rgba(0, 255, 231, 0.2);
+  
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        color: #00ffe7;
+        font-family: 'Orbitron', sans-serif;
+        text-shadow: 0 0 4px rgba(0, 255, 231, 0.3);
+      }
+  
+      .post-date {
+        font-size: 0.9rem;
+        color: #d4af37;
+        margin-bottom: 1rem;
+      }
+  
+      p {
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+  
+      .read-more {
+        display: inline-block;
+        margin-top: 1rem;
+        color: #00ffe7;
+        text-decoration: underline;
+        font-weight: bold;
+  
+        &:hover {
+          text-decoration: none;
+          color: #d4af37;
+        }
+      }
+    }
+  }
+  

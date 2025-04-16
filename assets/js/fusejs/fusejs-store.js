@@ -94,16 +94,6 @@ var store = [{
         "url": "https://jmesquerdo.github.io/arcanumcaedis/20181109_urban_art/",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Madrid_-_Graffiti_11.jpg/407px-Madrid_-_Graffiti_11.jpg"
       },{
-        "title": "Dean Village",
-        "subtitle": "",
-        "excerpt": "<p>Dean Village (from dene, meaning ‘deep valley’) is a former village immediately northwest of the city centre of Edinburgh, Scotland. It was known as the “Water of Leith Village” and was the centre of a successful grain milling area for more than 800 years. At one time there were no fewer than eleven working mills there, driven by the strong currents of the Water of Leith.  From Wikipedia</p>",
-        "content": "Dean Village (from dene, meaning ‘deep valley’) is a former village immediately northwest of the city centre of Edinburgh, Scotland. It was known as the “Water of Leith Village” and...",
-        "categories": ["picture"],
-        "date": "2019-05-02",
-        "tags": ["landscape","trips","downtown","edinburgh","kramdown","bootstrap","wikipedia","demo","image"],
-        "url": "https://jmesquerdo.github.io/arcanumcaedis/20190502_dean-village/",
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg/800px-Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg"
-      },{
         "title": "A landing page",
         "subtitle": "With image header",
         "excerpt": "<p>A simple landing page with an image on top. Transparencies (png) works better on this combination.</p>",
@@ -133,6 +123,16 @@ var store = [{
         "tags": ["skin","bootstrap","current-theme","header-hero","image","demo"],
         "url": "https://jmesquerdo.github.io/arcanumcaedis/20201231_current-skin/",
         "img": "https://picsum.photos/id/1018/2000/2000"
+      },{
+        "title": "Arcanum Caedis",
+        "subtitle": "",
+        "excerpt": "<p>“Lo que he encontrado es algo que solo podría haber nacido de un sueño trastornado o de un pecado aún mayor. Arcanum Caedis no es una tierra que se haya ganado ni que se haya merecido. Es un vestigio de lo que un día fue, una catástrofe viva que arde con el orgullo de quienes creyeron que podían controlar lo incontenible. La gente aquí… su vínculo con la magia es tan fuerte, tan inquebrantable, que ni las mismas máquinas que los Iluminados construyeron pueden arrastrarlos del todo hacia la civilización. Son seres de pura energía, capaces de torcer la realidad con el simple pensamiento.”</p>",
+        "content": "“Lo que he encontrado es algo que solo podría haber nacido de un sueño trastornado o de un pecado aún mayor. Arcanum Caedis no es una tierra que se haya...",
+        "categories": ["blog","arcanum"],
+        "date": "2025-04-16",
+        "tags": ["landscape","trips","downtown","edinburgh","kramdown","bootstrap","wikipedia","demo","image"],
+        "url": "https://jmesquerdo.github.io/arcanumcaedis/20250416_Arcanum-Caedis/",
+        "img": "https://jmesquerdo.github.io/arcanumcaedis/assets/img/ArcanumInterna.webp"
       },{
         "title": "Markdown cheatsheet",
         "subtitle": "The basic syntax of your page",

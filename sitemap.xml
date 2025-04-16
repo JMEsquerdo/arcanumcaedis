@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://jmesquerdo.github.io/arcanumcaedis/cheatsheets/01-markdown-cheat-sheet</loc>
-<lastmod>2025-04-16T16:22:27+02:00</lastmod>
+<lastmod>2025-04-16T18:18:03+02:00</lastmod>
 </url>
 <url>
 <loc>https://jmesquerdo.github.io/arcanumcaedis/cheatsheets/02-kramdown-cheat-sheet</loc>
-<lastmod>2025-04-16T16:22:27+02:00</lastmod>
+<lastmod>2025-04-16T18:18:03+02:00</lastmod>
 </url>
 <url>
 <loc>https://jmesquerdo.github.io/arcanumcaedis/20150104_first-post/</loc>
@@ -41,10 +41,6 @@
 <lastmod>2018-11-09T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>https://jmesquerdo.github.io/arcanumcaedis/20190502_dean-village/</loc>
-<lastmod>2019-05-02T00:00:00+02:00</lastmod>
-</url>
-<url>
 <loc>https://jmesquerdo.github.io/arcanumcaedis/20190803_landing-page/</loc>
 <lastmod>2019-08-03T00:00:00+02:00</lastmod>
 </url>
@@ -55,6 +51,13 @@
 <url>
 <loc>https://jmesquerdo.github.io/arcanumcaedis/20201231_current-skin/</loc>
 <lastmod>2021-02-03T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>https://jmesquerdo.github.io/arcanumcaedis/20250416_Arcanum-Caedis/</loc>
+<lastmod>2025-04-16T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>https://jmesquerdo.github.io/arcanumcaedis/arcanum/</loc>
 </url>
 <url>
 <loc>https://jmesquerdo.github.io/arcanumcaedis/archive</loc>

@@ -3,7 +3,7 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="https://jmesquerdo.github.io/arcanumcaedis/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="https://jmesquerdo.github.io/arcanumcaedis" rel="alternate" type="text/html" />
-	<updated>2025-04-16T16:22:27+02:00</updated>
+	<updated>2025-04-16T18:18:03+02:00</updated>
 	<id>https://jmesquerdo.github.io/arcanumcaedis/atom.xml</id>
 	<title>Arcanum Caedis</title>
 	
@@ -14,6 +14,44 @@
 	<rights>(c) 2025, Arcanum Caedis</rights>
 	
 	<logo></logo><entry>
+		<title type="html">Arcanum Caedis</title>
+		<link href="https://jmesquerdo.github.io/arcanumcaedis/20250416_Arcanum-Caedis/" rel="alternate" type="text/html" title="Arcanum Caedis"/>
+		<published>2025-04-16T00:00:00+02:00</published>
+		<updated>2025-04-16T00:00:00+02:00</updated>
+		<id>https://jmesquerdo.github.io/arcanumcaedis/20250416_Arcanum-Caedis/</id>
+		<content type="html" xml:base="https://jmesquerdo.github.io/arcanumcaedis/20250416_Arcanum-Caedis/">
+		
+  		
+			&lt;img src=&#39;https://jmesquerdo.github.io/arcanumcaedis/assets/img/ArcanumInterna.webp&#39; &gt;
+			
+	&lt;p&gt;2 min.&lt;/p&gt;
+			&lt;blockquote&gt;
+  &lt;p&gt;“Lo que he encontrado es algo que solo podría haber nacido de un sueño trastornado o de un pecado aún mayor. Arcanum Caedis no es una tierra que se haya ganado ni que se haya merecido. Es un vestigio de lo que un día fue, una catástrofe viva que arde con el orgullo de quienes creyeron que podían controlar lo incontenible. La gente aquí… su vínculo con la magia es tan fuerte, tan inquebrantable, que ni las mismas máquinas que los Iluminados construyeron pueden arrastrarlos del todo hacia la civilización. Son seres de pura energía, capaces de torcer la realidad con el simple pensamiento.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p class=&quot;blockquote-footer&quot;&gt;Maestro Elian de Vorath, Comandante de la Orden de los Vigilantes del Velo&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Arcanum Caedis no fue un regalo ni un descubrimiento, sino un error catastrófico nacido del orgullo de los Despertados y la arrogancia de los Iluminados. Una explosión de paradoja, un choque entre magia y tecnología, desgarró el tejido de la realidad, abriendo este plano como una herida en el cosmos. Su misma existencia es inestable, marcada por grietas espaciales que destellan con energías imposibles, una advertencia constante de que este mundo podría colapsar sobre sí mismo en cualquier momento.&lt;/p&gt;
+
+&lt;p&gt;La Tierra, degenerándose bajo el peso de siglos de guerra, se libró momentáneamente del conflicto cuando los magos y tecnócratas decidieron trasladar su lucha a este nuevo campo. Aquí, en las tierras fracturadas de Arcanum, establecieron sus bastiones. Los magos, maestros de las Esferas, manipulan la esencia misma del plano, levantando torres y murallas que respiran como seres vivos. Los tecnócratas, fieles a su dogma de orden y control, construyen enclaves fortificados donde la maquinaria murmura sus profecías mecánicas.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, no todo es conquista organizada. Las escaramuzas son constantes, cada encuentro una mezcla de brutalidad pragmática y desdén ideológico. No se trata solo de quién controla los recursos; se trata de imponer una visión, de demostrar que su paradigma es el único verdadero. En este tablero de guerra, los verdaderos peones son los habitantes originales de Arcanum Caedis.&lt;/p&gt;
+
+&lt;p&gt;Eran un pueblo sencillo, avanzados hasta los límites de la era preindustrial, con su propia relación con la naturaleza y los secretos del plano. Pero ahora sus aldeas están en ruinas, sus campos marchitos bajo las marchas inclementes de soldados tecnócratas y constructos mágicos. Los pocos sobrevivientes vagan como fantasmas, exiliados en su propio hogar, enfrentando horrores que ni siquiera comprenden mientras las fisuras del plano escupen monstruosidades irreales.&lt;/p&gt;
+
+		</content>
+		
+		<author>
+			<name></name></author>
+		<summary type="html">&lt;blockquote&gt;
+  &lt;p&gt;“Lo que he encontrado es algo que solo podría haber nacido de un sueño trastornado o de un pecado aún mayor. Arcanum Caedis no es una tierra que se haya ganado ni que se haya merecido. Es un vestigio de lo que un día fue, una catástrofe viva que arde con el orgullo de quienes creyeron que podían controlar lo incontenible. La gente aquí… su vínculo con la magia es tan fuerte, tan inquebrantable, que ni las mismas máquinas que los Iluminados construyeron pueden arrastrarlos del todo hacia la civilización. Son seres de pura energía, capaces de torcer la realidad con el simple pensamiento.”&lt;/p&gt;
+&lt;/blockquote&gt;
+</summary>
+		<category term="posts"/>
+		<category term="bootstrap"/><category term="demo"/><category term="downtown"/><category term="edinburgh"/><category term="image"/><category term="kramdown"/><category term="landscape"/><category term="trips"/><category term="wikipedia"/>
+	</entry><entry>
 		<title type="html">Current skin</title>
 		<link href="https://jmesquerdo.github.io/arcanumcaedis/20201231_current-skin/" rel="alternate" type="text/html" title="Current skin"/>
 		<published>2020-12-31T00:00:00+01:00</published>
@@ -46,14 +84,14 @@
 	  &lt;li class=&quot;page-item disabled mx-auto invisible&quot;&gt;
 	   &lt;p class=&quot;page-link&quot;&gt;|&lt;/p&gt;
 	  &lt;/li&gt;	
-	  &lt;li class=&quot;page-item border-0 disabled text-right mr-0 ml-auto d-none d-sm-inline d-md-none invisible&quot;&gt;
-	    &lt;p class=&quot;page-link chulapa-label&quot;&gt;&lt;/p&gt;
+	  &lt;li class=&quot;page-item border-0 disabled text-right mr-0 ml-auto d-none d-sm-inline d-md-none &quot;&gt;
+	    &lt;p class=&quot;page-link chulapa-label&quot;&gt;Arcanum Caedis&lt;/p&gt;
 	  &lt;/li&gt;
-	  &lt;li class=&quot;page-item border-0 disabled text-right mr-0 ml-auto d-none d-md-inline invisible&quot;&gt;
-	    &lt;p class=&quot;page-link chulapa-label&quot;&gt;&lt;/p&gt;
+	  &lt;li class=&quot;page-item border-0 disabled text-right mr-0 ml-auto d-none d-md-inline &quot;&gt;
+	    &lt;p class=&quot;page-link chulapa-label&quot;&gt;Arcanum Caedis&lt;/p&gt;
 	  &lt;/li&gt;
-    &lt;li class=&quot;page-item text-right ml-0 invisible&quot;&gt;
-      &lt;a class=&quot;page-link border-0 px-4&quot; href=&quot;#&quot;&gt;
+    &lt;li class=&quot;page-item text-right ml-0 &quot;&gt;
+      &lt;a class=&quot;page-link border-0 px-4&quot; href=&quot;https://jmesquerdo.github.io/arcanumcaedis/20250416_Arcanum-Caedis/&quot;&gt;
 	  &lt;i class=&quot;fa fa-chevron-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;&lt;/a&gt;
     &lt;/li&gt;
   &lt;/ul&gt;
@@ -148,6 +186,8 @@
             &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarToggler&quot;&gt;
               &lt;ul class=&quot;navbar-nav ml-auto&quot;&gt;&lt;li class=&quot;nav-item&quot;&gt;
                   &lt;a class=&quot;nav-link &quot; href=&quot;https://jmesquerdo.github.io/arcanumcaedis/blog/&quot;&gt;Blog&lt;/a&gt;
+                &lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;
+                  &lt;a class=&quot;nav-link &quot; href=&quot;https://jmesquerdo.github.io/arcanumcaedis/arcanum/&quot;&gt;Arcanum&lt;/a&gt;
                 &lt;/li&gt;&lt;li class=&quot;nav-item&quot;&gt;
                   &lt;a class=&quot;nav-link &quot; href=&quot;https://jmesquerdo.github.io/arcanumcaedis/cheatsheets&quot;&gt;Cheatsheets&lt;/a&gt;
                 &lt;/li&gt;&lt;li class=&quot;nav-item dropdown&quot;&gt;&lt;a class=&quot;nav-link dropdown-toggle &quot; href=&quot;#&quot; id=&quot;Extras&quot; role=&quot;button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Extras&lt;/a&gt;
@@ -1692,40 +1732,6 @@
 </summary>
 		<category term="posts"/>
 		<category term="demo"/><category term="example"/><category term="guest-author"/><category term="image"/><category term="layout"/>
-	</entry><entry>
-		<title type="html">Dean Village</title>
-		<link href="https://jmesquerdo.github.io/arcanumcaedis/20190502_dean-village/" rel="alternate" type="text/html" title="Dean Village"/>
-		<published>2019-05-02T00:00:00+02:00</published>
-		<updated>2019-05-02T00:00:00+02:00</updated>
-		<id>https://jmesquerdo.github.io/arcanumcaedis/20190502_dean-village/</id>
-		<content type="html" xml:base="https://jmesquerdo.github.io/arcanumcaedis/20190502_dean-village/">
-		
-  		
-			&lt;img src=&#39;https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg/800px-Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg&#39; &gt;
-			
-	&lt;p&gt;1 min.&lt;/p&gt;
-			&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Dean Village&lt;/strong&gt; (from &lt;em&gt;dene&lt;/em&gt;, meaning ‘&lt;em&gt;deep valley&lt;/em&gt;’) is a former village immediately northwest of the city centre of Edinburgh, Scotland. It was known as the “Water of Leith Village” and was the centre of a successful grain milling area for more than 800 years. At one time there were no fewer than eleven working mills there, driven by the strong currents of the Water of Leith.&lt;/p&gt;
-
-  &lt;p class=&quot;blockquote-footer&quot;&gt;From &lt;a href=&quot;https://en.wikipedia.org/wiki/Dean_Village&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;That was a blockquote with a footer added via kramdown. See &lt;a href=&quot;https://getbootstrap.com/docs/4.5/content/typography/&quot;&gt;Bootstrap Typography&lt;/a&gt; 
-to understand &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.blockquote-footer&lt;/code&gt; class.
-&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg/800px-Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg&quot; alt=&quot;Dean Village&quot; /&gt;&lt;/p&gt;
-
-		</content>
-		
-		<author>
-			<name></name></author>
-		<summary type="html">&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Dean Village&lt;/strong&gt; (from &lt;em&gt;dene&lt;/em&gt;, meaning ‘&lt;em&gt;deep valley&lt;/em&gt;’) is a former village immediately northwest of the city centre of Edinburgh, Scotland. It was known as the “Water of Leith Village” and was the centre of a successful grain milling area for more than 800 years. At one time there were no fewer than eleven working mills there, driven by the strong currents of the Water of Leith.&lt;/p&gt;
-
-  &lt;p class=&quot;blockquote-footer&quot;&gt;From &lt;a href=&quot;https://en.wikipedia.org/wiki/Dean_Village&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</summary>
-		<category term="posts"/>
-		<category term="bootstrap"/><category term="demo"/><category term="downtown"/><category term="edinburgh"/><category term="image"/><category term="kramdown"/><category term="landscape"/><category term="trips"/><category term="wikipedia"/>
 	</entry><entry>
 		<title type="html">Urban art</title>
 		<link href="https://jmesquerdo.github.io/arcanumcaedis/20181109_urban_art/" rel="alternate" type="text/html" title="Urban art"/>
