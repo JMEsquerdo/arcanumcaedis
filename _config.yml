@@ -9,8 +9,8 @@ remote_theme: dieghernan/chulapa
 # A. Site Settings /SEO options
 # Overall options for your site, would affect your site SEO
 # Default values are explained
-locale                  :     #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
-title                   : Arcanum Caelis    #default["repository_name"]
+locale                  :     "es-ES" #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
+title                   :     Arcanum Caelis    #default["repository_name"]
 title_separator         :     #default [" | "]
 subtitle                :     #default [your-repository-tagline]  
 description             :     #default [your-repository-tagline]
@@ -24,9 +24,9 @@ timezone                :     Europe/Madrid #,see https://jekyllrb.com/docs/conf
 og_image                :     #default[author.avatar (see below)] or [github-avatar]
 twitter_site            :     #Avoid @
 author:
-  name                  :  Your Name   # Name Surname Company
+  name                  :     Arcanum Caelis   # Name Surname Company
   avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
-  location              :  "Madrid, Spain"   # New York, USA 
+  location              :     "Madrid, Spain"   # New York, USA 
 #  links:                
 #    - url:  #A link or email: https://twitter.com/jack, mail@example.com
 #      icon: # A Fontawesome 5 code: fab fa-twitter - see https://fontawesome.com/
@@ -104,11 +104,11 @@ navbar:
     url     :  # default["url/baseurl"]
     img     :  # An small image, try 30x30px
   nav:
-  - title   : Blog # Label
-    url     : /blog/ # url	
-  - title   : Cheatsheets
-    url     : /cheatsheets
-  - title   : Extras
+  - title   :  Blog # Label
+    url     :  /blog/ # url	
+  - title   :  Cheatsheets
+    url     :  /cheatsheets
+  - title   :  Extras
     child   :
       - title : Tags
         url   : /tags
@@ -118,10 +118,10 @@ navbar:
         url   : /archive
       - title : Current skin
         url   : /current-skin
-  - title   : Docs
-    url     : https://dieghernan.github.io/chulapa/docs/01-install
-  - title   : Use this template
-    url     : https://github.com/dieghernan/chulapa-101/generate
+#  - title   : Docs
+#    url     : https://dieghernan.github.io/chulapa/docs/01-install
+#  - title   : Use this template
+#    url     : https://github.com/dieghernan/chulapa-101/generate
 #  - title   : # Label submenu
 #    child:		
 #    - title: # Child label		
@@ -142,7 +142,8 @@ footer:
 # C. Theme Settings
 # Google Fonts https://fonts.google.com/, add as many as you need
 googlefonts:
- # - url : # 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'
+  googlefonts: "https://fonts.googleapis.com/css2?family=Quintessential&family=Cormorant+Garamond&family=Quattrocento+Sans:wght@400;700&display=swap"
+# - url : # 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'
 
 # Theme and colors
 chulapa-skin: 
@@ -150,7 +151,17 @@ chulapa-skin:
   skin         :  # Optional predefined skins
   autothemer    :  true # Bool: Use autotheming
   vars          :    
-    primary     : "lightskyblue" #default ["#007bff"] - Bootstrap blue
+    primary: "#1f4068"         # Azul arcano
+    secondary: "#d4af37"       # Dorado místico
+    success: "#28a745"         # Verde clásico
+    danger: "#8b0000"          # Rojo sangre oscura
+    info: "#3ca3e6"            # Azul brillante pero no neón
+    warning: "#e0a800"         # Amarillo pergamino encantado
+    light: "#fdf6e3"           # Fondo tipo pergamino antiguo
+    dark: "#0b1a2b"            # Azul noche profundo
+    headings-font-family: "'Quintessential', cursive"
+    subtitle-font-family: "'Cormorant Garamond', serif"
+    font-family-sans-serif: "'Quattrocento Sans', sans-serif"
     
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 
