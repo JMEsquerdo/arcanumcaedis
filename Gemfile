@@ -17,3 +17,6 @@ gem 'kramdown-parser-gfm'
 gem 'ostruct'
 gem 'fiddle'
 gem 'faraday-retry'
+
+# Añadir esta gema para soporte de zonas horarias en Windows
+gem 'tzinfo-data'
