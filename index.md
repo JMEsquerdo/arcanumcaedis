@@ -1,14 +1,10 @@
 ---
 layout: landingpage
-title: ""
+title: "ARCANUM CAEDIS"
 header_type: splash
 header_img: "assets/img/HEADER.png"
+custom_title: true
 ---
-<div class="text-center pt-8 absolute top-0 left-0 w-full z-10">
-  <h1 class="titulo-landing-caedis text-5xl md:text-6xl">ARCANUM CAEDIS</h1>
-</div>
-<hr class="hr-arcana">
-
 <section class="px-6 md:px-24 py-16 card-arcana">
   <h2 class="text-4xl mb-4">El Origen</h2>
   <p>
