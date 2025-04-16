@@ -2,38 +2,37 @@
 layout: landingpage
 title: "ARCANUM CAEDIS"
 header_type: splash
-header_img: "assets/img/HEADER.png"
+header_img: "assets/img/HEADER.webp"
 custom_title: true
 ---
-<section class="px-6 md:px-24 py-16 card-arcana">
-  <h2 class="text-4xl mb-4">El Origen</h2>
-  <p>
-    <strong>Arcanum Caedis</strong> no fue un regalo ni un descubrimiento, sino un error catastrófico nacido del orgullo de los Despertados y la arrogancia de los Iluminados.
-    Una explosión de paradoja, un choque entre magia y tecnología, desgarró el tejido de la realidad, abriendo este plano como una herida en el cosmos.
-  </p>
-</section>
 
-<section class="px-6 md:px-24 py-16 bg-gray-900 text-gray-100">
-  <h2 class="text-4xl mb-4">Puesto de Avanzada</h2>
-  <p>
-    Bastión de la tecnocracia, dominado por el <strong>Nuevo Orden Mundial</strong>. Este puesto de control es el centro neurálgico desde el cual los tecnócratas supervisan y expanden su influencia sobre el plano. 
-    Estructuras de acero y vidrio, investigación avanzada y eficiencia clínica definen este enclave.
-  </p>
-</section>
+<div class="arcana-grid">
 
-<section class="px-6 md:px-24 py-16 card-arcana">
-  <h2 class="text-4xl mb-4">Concordia</h2>
-  <p>
-    Ciudad regida por los <strong>Herméticos</strong>, epicentro de la experimentación mágica más avanzada. Sus calles rebosan de artefactos y sus torres vibran con energías arcanas, en una búsqueda constante por dominar las leyes de la realidad.
-  </p>
-</section>
+  <a href="/blog/arcanum" class="arcana-card lazy-bg arcanum" style="background-image: url('assets/img/Arcanum_mini.webp');" data-bg="assets/img/Arcanum.webp" aria-label="Explora el mundo de Arcanum Caedis">
+    <h2>Arcanum Caedis</h2>
+    <!-- Imagen de fondo oculta para SEO/Accesibilidad -->
+    <span class="visually-hidden" alt="Imagen de Arcanum Caedis, un paisaje misterioso con magia" aria-hidden="true"></span>
+  </a>
 
-<section class="px-6 md:px-24 py-16 bg-gray-800 text-gray-100">
-  <h2 class="text-4xl mb-4">La Tierra</h2>
-  <p>
-    Aunque aparentemente familiar, el mundo conocido ha sido transformado. <strong>Magos y tecnócratas</strong> vigilan cada rincón, manteniendo un frágil equilibrio con reglas estrictas que limitan el poder y la libertad de los Despiertos.
-  </p>
-</section>
+  <a href="/blog/puestoavanzada" class="arcana-card lazy-bg tecnocracia" style="background-image: url('assets/img/PuestoAvanzada_mini.webp');" data-bg="assets/img/PuestoAvanzada.webp" aria-label="Descubre el Puesto de Avanzada tecnocrático">
+    <h2>Puesto de Avanzada</h2>
+    <!-- Imagen de fondo oculta para SEO/Accesibilidad -->
+    <span class="visually-hidden" alt="Puesto de avanzada tecnocrático con alta tecnología y estructuras futuristas" aria-hidden="true"></span>
+  </a>
+
+  <a href="/blog/concordia" class="arcana-card lazy-bg hermeticos" style="background-image: url('assets/img/Concordia_mini.webp');" data-bg="assets/img/Concordia.webp" aria-label="Explora Concordia, la ciudad mágica de los Herméticos">
+    <h2>Concordia</h2>
+    <!-- Imagen de fondo oculta para SEO/Accesibilidad -->
+    <span class="visually-hidden" alt="Concordia, una ciudad llena de magia y misterios" aria-hidden="true"></span>
+  </a>
+
+  <a href="/blog/tierra" class="arcana-card lazy-bg" style="background-image: url('assets/img/Tierra_mini.webp');" data-bg="assets/img/Tierra.webp" aria-label="La Tierra, equilibrio entre magia y tecnología">
+    <h2>La Tierra</h2>
+    <!-- Imagen de fondo oculta para SEO/Accesibilidad -->
+    <span class="visually-hidden" alt="La Tierra, un lugar donde coexisten tecnología y magia en tensión" aria-hidden="true"></span>
+  </a>
+
+</div>
 
 <div class="text-center py-12">
   <a href="/explorar" class="btn-arcano text-lg">Explorar el Plano</a>

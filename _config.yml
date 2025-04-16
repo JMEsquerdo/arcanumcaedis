@@ -60,7 +60,7 @@ comments:
   disqus_shortname: null
   cactus_shortname: null
 navbar:
-  style: dual
+  style: fab
   expand: null
   brand:
     title: Home

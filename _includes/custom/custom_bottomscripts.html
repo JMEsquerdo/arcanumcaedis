@@ -1,5 +1,24 @@
 <!-- start custom scripts to be placed at the bottom of the page -->
 
-
+<script>
+    // Lazy load de imágenes de fondo
+    document.addEventListener("DOMContentLoaded", function () {
+      const cards = document.querySelectorAll('.lazy-bg');
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const bg = entry.target.getAttribute('data-bg');
+            entry.target.style.backgroundImage = `url('${bg}')`;
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        rootMargin: '100px',
+        threshold: 0.1
+      });
+  
+      cards.forEach(card => observer.observe(card));
+    });
+  </script>
 
 <!-- end custom bottom scripts -->
