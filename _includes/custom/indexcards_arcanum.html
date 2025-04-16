@@ -1,0 +1,26 @@
+{% assign posts = cacheddocs | default: site.posts %}
+{% assign limit = cachedlimit | default: posts.size %}
+
+<div class="arcanum-cards-list">
+  {% for post in posts limit: limit %}
+    <article class="arcanum-horizontal-card">
+      {% if post.image %}
+        <div class="card-thumb">
+          <a href="{{ post.url | relative_url }}">
+            <img src="{{ post.image | relative_url }}" alt="Miniatura de {{ post.title }}">
+          </a>
+        </div>
+      {% endif %}
+      <div class="card-content">
+        <h2 class="card-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+        <p class="post-date">{{ post.date | date: "%d %B %Y" }}</p>
+        {% if post.excerpt %}
+          <p class="card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        {% endif %}
+        <a class="read-more" href="{{ post.url | relative_url }}">Leer más →</a>
+      </div>
+    </article>
+  {% endfor %}
+</div>

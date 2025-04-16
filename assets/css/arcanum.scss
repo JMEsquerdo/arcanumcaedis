@@ -1,0 +1,82 @@
+// ==========================================================
+// 🎨 Temas visuales narrativos por facción (no afecta estilos globales)
+// ==========================================================
+// -------------------------------
+// Arcanum
+// -------------------------------
+.arcana-card.arcanum {
+    border: 2px solid #9f4dff;
+    box-shadow: 0 0 12px rgba(159, 77, 255, 0.4);
+  
+    h2 {
+      font-family: 'Montserrat Alternates', sans-serif;
+      color: #c9a4ff;
+      text-shadow: 0 0 6px rgba(159, 77, 255, 0.5);
+    }
+  }
+  
+  .arcana-section {
+    padding: 3rem 2rem;
+    background-color: #0b1a2b;
+    color: #fdf6e3;
+    font-family: 'Montserrat Alternates', sans-serif;
+  
+    .arcanum-header {
+      text-align: center;
+  
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+        color: #c9a4ff;
+        text-shadow: 0 0 6px rgba(159, 77, 255, 0.3);
+      }
+    }
+  
+    .arcanum-posts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+    }
+  
+    .arcanum-post {
+      background-color: #1f4068;
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+      border: 1px solid #9f4dff;
+      box-shadow: 0 0 10px rgba(159, 77, 255, 0.2);
+  
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        color: #c9a4ff;
+        font-family: 'Montserrat Alternates', sans-serif;
+        text-shadow: 0 0 4px rgba(159, 77, 255, 0.3);
+      }
+  
+      .post-date {
+        font-size: 0.9rem;
+        color: #d4af37;
+        margin-bottom: 1rem;
+      }
+  
+      p {
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+  
+      .read-more {
+        display: inline-block;
+        margin-top: 1rem;
+        color: #c9a4ff;
+        text-decoration: underline;
+        font-weight: bold;
+  
+        &:hover {
+          text-decoration: none;
+          color: #d4af37;
+        }
+      }
+    }
+  }
+  

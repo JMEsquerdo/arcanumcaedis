@@ -1,0 +1,79 @@
+// -------------------------------
+// Concordia
+// -------------------------------
+.arcana-card.concordia {
+    border: 2px solid #ff6f61;
+    box-shadow: 0 0 12px rgba(255, 111, 97, 0.3);
+  
+    h2 {
+      font-family: 'Lora', serif;
+      color: #ff6f61;
+      text-shadow: 0 0 6px rgba(255, 111, 97, 0.5);
+    }
+  }
+  
+  .concordia-section {
+    padding: 3rem 2rem;
+    background-color: #2c3e50;
+    color: #fdf6e3;
+    font-family: 'Lora', serif;
+  
+    .concordia-header {
+      text-align: center;
+  
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+        color: #ff6f61;
+        text-shadow: 0 0 6px rgba(255, 111, 97, 0.3);
+      }
+    }
+  
+    .concordia-posts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+    }
+  
+    .concordia-post {
+      background-color: #34495e;
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+      border: 1px solid #ff6f61;
+      box-shadow: 0 0 10px rgba(255, 111, 97, 0.2);
+  
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        color: #ff6f61;
+        font-family: 'Lora', serif;
+        text-shadow: 0 0 4px rgba(255, 111, 97, 0.3);
+      }
+  
+      .post-date {
+        font-size: 0.9rem;
+        color: #d4af37;
+        margin-bottom: 1rem;
+      }
+  
+      p {
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+  
+      .read-more {
+        display: inline-block;
+        margin-top: 1rem;
+        color: #ff6f61;
+        text-decoration: underline;
+        font-weight: bold;
+  
+        &:hover {
+          text-decoration: none;
+          color: #d4af37;
+        }
+      }
+    }
+  }
+  

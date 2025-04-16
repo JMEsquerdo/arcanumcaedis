@@ -106,6 +106,8 @@ navbar:
   nav:
   - title   : Blog # Label
     url     : /blog/ # url	
+  - title   : Arcanum # Label
+    url     : /arcanum/ # url	
   - title   : Cheatsheets
     url     : /cheatsheets
   - title   : Extras
