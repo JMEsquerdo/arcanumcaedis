@@ -6,6 +6,7 @@ header_img: "assets/img/HEADER.webp"
 custom_title: true
 ---
 
+
 <div class="arcana-grid">
 
   <a href="/blog/arcanum" class="arcana-card lazy-bg arcanum" style="background-image: url('assets/img/Arcanum_mini.webp');" data-bg="assets/img/Arcanum.webp" aria-label="Explora el mundo de Arcanum Caedis">
@@ -37,3 +38,4 @@ custom_title: true
 <div class="text-center py-12">
   <a href="/explorar" class="btn-arcano text-lg">Explorar el Plano</a>
 </div>
+
