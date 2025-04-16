@@ -69,6 +69,8 @@ navbar:
   nav:
     - title: Blog
       url: /blog/
+    - title: Arcanum
+      url: /arcanum/
     - title: Cheatsheets
       url: /cheatsheets
     - title: Extras

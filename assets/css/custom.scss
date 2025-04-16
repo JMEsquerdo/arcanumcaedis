@@ -129,62 +129,26 @@ body {
     background-image: attr(data-bg url);
   }
 
-  // ==========================================================
-// 🎨 Temas visuales narrativos por facción (no afecta estilos globales)
-// ==========================================================
 
 // -------------------------------
-// Tecnocracia
+// ✏️ Citas de blog - Falta validación de TESTER
 // -------------------------------
-.arcana-card.tecnocracia {
-  border: 2px solid #00ffe7;
-  box-shadow: 0 0 12px rgba(0, 255, 231, 0.3);
-
-  h2 {
-    font-family: 'Orbitron', sans-serif;
-    color: #00ffe7;
-    text-shadow: 0 0 6px rgba(0, 255, 231, 0.5);
-  }
+// Estilo para las citas (blockquote)
+blockquote {
+  font-family: 'Uncial Antiqua', serif; // Fuente para cita, similar a la usada en los Herméticos
+  font-style: italic;  // Cursiva para destacar la cita
+  border-left: 4px solid #5c4c17;  // Línea lateral dorada (un toque visual para citas)
+  padding-left: 1rem;  // Espaciado para que la cita no esté pegada a la línea
+  margin: 1rem 0;
+  color: #5c4c17;  // Color de texto (similar a tus textos principales)
+  background-color: rgba(0, 0, 0, 0.1);  // Fondo sutil para la cita
 }
 
-// -------------------------------
-// Herméticos
-// -------------------------------
-.arcana-card.hermeticos {
-  border: 2px solid #d4af37;
-  box-shadow: 0 0 12px rgba(212, 175, 55, 0.4);
-
-  h2 {
-    font-family: 'Uncial Antiqua', cursive;
-    color: #d4af37;
-    text-shadow: 0 0 6px rgba(212, 175, 55, 0.5);
-  }
+// Estilo para el pie de la cita (footer)
+.blockquote-footer {
+  font-family: 'Montserrat Alternates', sans-serif; // Fuente de pie de cita (para contraste)
+  font-size: 0.9rem;  // Fuente más pequeña para el pie de la cita
+  text-align: right;  // Alineación a la derecha para el pie
+  color: #d4af37;  // Color dorado para destacar al autor
+  font-weight: bold;
 }
-
-// -------------------------------
-// Arcanum
-// -------------------------------
-.arcana-card.arcanum {
-  border: 2px solid #9f4dff;
-  box-shadow: 0 0 12px rgba(159, 77, 255, 0.4);
-
-  h2 {
-    font-family: 'Montserrat Alternates', sans-serif;
-    color: #c9a4ff;
-    text-shadow: 0 0 6px rgba(159, 77, 255, 0.5);
-  }
-}
-
-// -------------------------------
-// Tierra (si la quieres personalizar)
-.tierra {
-  border: 2px solid #a4ff4d;
-  box-shadow: 0 0 12px rgba(164, 255, 77, 0.4);
-
-  h2 {
-    font-family: 'Montserrat Alternates', sans-serif;
-    color: #a4ff4d;
-    text-shadow: 0 0 6px rgba(164, 255, 77, 0.5);
-  }
-}
-
