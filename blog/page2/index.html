@@ -18,8 +18,8 @@
       },
       "headline": "Blog",
       "image": "https://jmesquerdo.github.io/arcanumcaedis/assets/img/site/banner-blog.png",
-      "datePublished": "2025-04-16T13:41:08+02:00",
-      "dateModified": "2025-04-16T13:41:08+02:00",
+      "datePublished": "2025-04-16T16:08:29+02:00",
+      "dateModified": "2025-04-16T16:08:29+02:00",
       "author": {
         "@type": "Person",
         "name": "Arcanum Caedis"
@@ -115,20 +115,23 @@
     <!-- Custom css -->
   <link rel="stylesheet" href="https://jmesquerdo.github.io/arcanumcaedis/assets/css/custom.css" >
       <!-- start custom head snippets -->
-<link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet"> <!-- Títulos -->
 <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet"> <!-- Tecnocracia -->
+<link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet"> <!-- Herméticos -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet"> <!-- Arcanum o Tierra -->
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <!-- end custom head snippets -->
 </head>
 <body class="d-flex flex-column h-entry" id="body">
 	<a class="u-url d-none" href="https://jmesquerdo.github.io/arcanumcaedis/blog/page2/">Invisible link to canonical for Microformats</a>
-	<div class="navbar-chulapa-fab d-md-none">
+	<div class="navbar-chulapa-fab">
 		<input type="checkbox" class="navbar-chulapa-fab-button d-none" id="navi-toggle">
 		<label for="navi-toggle" class="navbar-toggler p-1 m-0 text-center d-flex">
 			<span class="navbar-toggler-icon m-auto">&nbsp;</span>
 		</label>
 		<div class="navbar-chulapa-fab-background">&nbsp;</div>
-		<nav class="navbar-chulapa-fab-nav" aria-label="alternative-navigation">
+		<nav class="navbar-chulapa-fab-nav" aria-label="primary-navigation">
 			<ul class="navbar-nav text-center text-uppercase font-weight-light mt-0 mb-1 py-1">
 				<li class="nav-item">
 					<a class="nav-link px-3 navbar-brand mx-1 " href="https://jmesquerdo.github.io/arcanumcaedis">Home</a>
@@ -142,21 +145,7 @@
 					<a class="nav-link px-3 py-1 " href="https://jmesquerdo.github.io/arcanumcaedis/search">Search</a>
 				</li></ul>
 		</nav>
-	</div>
-	<nav class="navbar navbar-expand sticky-top navbar-chulapa d-none d-md-block " aria-label="primary-navigation">
-	<div class="container-fluid mx-md-2">
-			<a class="navbar-brand text-uppercase font-weight-light" href="https://jmesquerdo.github.io/arcanumcaedis/">Home</a><ul class="navbar-nav ml-auto"><li class="nav-item mx-2">
-						<a class="nav-link text-uppercase font-weight-light " href="https://jmesquerdo.github.io/arcanumcaedis/blog/">Blog</a>
-					</li><li class="nav-item mx-2">
-						<a class="nav-link text-uppercase font-weight-light " href="https://jmesquerdo.github.io/arcanumcaedis/cheatsheets">Cheatsheets</a>
-					</li><li class="nav-item mx-2 dropdown"><a class="nav-link text-uppercase font-weight-light dropdown-toggle " href="#" id="Extras2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Extras</a>
-						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="Extras2"><a class="dropdown-item text-uppercase font-weight-light " href="https://jmesquerdo.github.io/arcanumcaedis/tags">Tags</a><a class="dropdown-item text-uppercase font-weight-light " href="https://jmesquerdo.github.io/arcanumcaedis/categories">Categories</a><a class="dropdown-item text-uppercase font-weight-light " href="https://jmesquerdo.github.io/arcanumcaedis/archive">Archive</a><a class="dropdown-item text-uppercase font-weight-light " href="https://jmesquerdo.github.io/arcanumcaedis/current-skin">Current skin</a></div>
-					</li><li class="nav-item mx-2">
-						<a class="nav-link text-uppercase font-weight-light " href="https://jmesquerdo.github.io/arcanumcaedis/search">
-							<i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span>
-						</a>
-					</li></ul></div>
-</nav><!-- Chulapa template for pagination --><header class="text-center header-chulapa"><div class="container-lg mt-2">
+	</div><!-- Chulapa template for pagination --><header class="text-center header-chulapa"><div class="container-lg mt-2">
        <div class="row">
            <div class="col-lg-8 offset-lg-2">
            <h1 class="p-name">Blog</h1><p class="lead chulapa-subtitle p-summary">News and updates</p>
@@ -337,6 +326,25 @@ Be all my sins remembered.
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/gh/dieghernan/chulapa@master/assets/js/chulapa_script.js"></script>
 	<!-- start custom scripts to be placed at the bottom of the page -->
+<script>
+    // Lazy load de imágenes de fondo
+    document.addEventListener("DOMContentLoaded", function () {
+      const cards = document.querySelectorAll('.lazy-bg');
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const bg = entry.target.getAttribute('data-bg');
+            entry.target.style.backgroundImage = `url('${bg}')`;
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        rootMargin: '100px',
+        threshold: 0.1
+      });
+      cards.forEach(card => observer.observe(card));
+    });
+  </script>
 <!-- end custom bottom scripts -->
 	</body>
 </html>
