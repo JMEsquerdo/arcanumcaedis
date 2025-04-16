@@ -129,3 +129,62 @@ body {
     background-image: attr(data-bg url);
   }
 
+  // ==========================================================
+// 🎨 Temas visuales narrativos por facción (no afecta estilos globales)
+// ==========================================================
+
+// -------------------------------
+// Tecnocracia
+// -------------------------------
+.arcana-card.tecnocracia {
+  border: 2px solid #00ffe7;
+  box-shadow: 0 0 12px rgba(0, 255, 231, 0.3);
+
+  h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #00ffe7;
+    text-shadow: 0 0 6px rgba(0, 255, 231, 0.5);
+  }
+}
+
+// -------------------------------
+// Herméticos
+// -------------------------------
+.arcana-card.hermeticos {
+  border: 2px solid #d4af37;
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.4);
+
+  h2 {
+    font-family: 'Uncial Antiqua', cursive;
+    color: #d4af37;
+    text-shadow: 0 0 6px rgba(212, 175, 55, 0.5);
+  }
+}
+
+// -------------------------------
+// Arcanum
+// -------------------------------
+.arcana-card.arcanum {
+  border: 2px solid #9f4dff;
+  box-shadow: 0 0 12px rgba(159, 77, 255, 0.4);
+
+  h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #c9a4ff;
+    text-shadow: 0 0 6px rgba(159, 77, 255, 0.5);
+  }
+}
+
+// -------------------------------
+// Tierra (si la quieres personalizar)
+.tierra {
+  border: 2px solid #a4ff4d;
+  box-shadow: 0 0 12px rgba(164, 255, 77, 0.4);
+
+  h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #a4ff4d;
+    text-shadow: 0 0 6px rgba(164, 255, 77, 0.5);
+  }
+}
+
