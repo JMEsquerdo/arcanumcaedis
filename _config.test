@@ -142,7 +142,8 @@ footer:
 # C. Theme Settings
 # Google Fonts https://fonts.google.com/, add as many as you need
 googlefonts:
- # - url : # 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'
+  googlefonts: "https://fonts.googleapis.com/css2?family=Quintessential&family=Cormorant+Garamond&family=Quattrocento+Sans:wght@400;700&display=swap"
+# - url : # 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'
 
 # Theme and colors
 chulapa-skin: 
@@ -150,7 +151,17 @@ chulapa-skin:
   skin         :  # Optional predefined skins
   autothemer    :  true # Bool: Use autotheming
   vars          :    
-    primary     : "lightskyblue" #default ["#007bff"] - Bootstrap blue
+    primary: "#1f4068"         # Azul arcano
+    secondary: "#d4af37"       # Dorado místico
+    success: "#28a745"         # Verde clásico
+    danger: "#8b0000"          # Rojo sangre oscura
+    info: "#3ca3e6"            # Azul brillante pero no neón
+    warning: "#e0a800"         # Amarillo pergamino encantado
+    light: "#fdf6e3"           # Fondo tipo pergamino antiguo
+    dark: "#0b1a2b"            # Azul noche profundo
+    headings-font-family: "'Quintessential', cursive"
+    subtitle-font-family: "'Cormorant Garamond', serif"
+    font-family-sans-serif: "'Quattrocento Sans', sans-serif"
     
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 
