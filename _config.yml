@@ -3,19 +3,19 @@ github:
   - metadata
 remote_theme: dieghernan/chulapa
 locale: es-ES
-title: Arcanum Caelis
+title: Arcanum Caedis
 title_separator: null
 subtitle: null
 description: null
 url: null
 baseurl: null
-repository: JMEsquerdo/arcanumcaelis
+repository: JMEsquerdo/arcanumcaedis
 words_per_minute: null
 timezone: Europe/Madrid
 og_image: null
 twitter_site: null
 author:
-  name: Arcanum Caelis
+  name: Arcanum Caedis
   avatar: null
   location: Madrid, Spain
 fa_version: null
@@ -85,7 +85,7 @@ footer:
   links:
     - label: Repo on Github
       icon: fab fa-github
-      url: https://github.com/JMEsquerdo/arcanumcaelis
+      url: https://github.com/JMEsquerdo/arcanumcaedis
     - label: RSS
       icon: fa fa-rss
       url: ./atom.xml
