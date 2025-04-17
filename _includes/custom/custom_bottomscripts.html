@@ -19,6 +19,37 @@
   
       cards.forEach(card => observer.observe(card));
     });
+  
+    // Paginación
+  document.addEventListener("DOMContentLoaded", function () {
+    const postsPerPage = 4;
+    const posts = document.querySelectorAll(".post-item");
+    const totalPosts = posts.length;
+    const totalPages = Math.ceil(totalPosts / postsPerPage);
+    const pagination = document.getElementById("pagination");
+
+    function showPage(page) {
+      posts.forEach((post, index) => {
+        post.style.display = (index >= (page - 1) * postsPerPage && index < page * postsPerPage) ? "block" : "none";
+      });
+
+      // Actualizar botones
+      pagination.innerHTML = "";
+      for (let i = 1; i <= totalPages; i++) {
+        const li = document.createElement("li");
+        li.className = `page-item ${i === page ? "active" : ""}`;
+        li.innerHTML = `<button class="page-link">${i}</button>`;
+        li.addEventListener("click", () => showPage(i));
+        pagination.appendChild(li);
+      }
+    }
+
+    // Mostrar primera página
+    if (totalPosts > 0) showPage(1);
+  });
+
+  
+  
   </script>
 
 <!-- end custom bottom scripts -->
