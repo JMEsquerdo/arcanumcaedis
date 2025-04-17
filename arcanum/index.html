@@ -5,7 +5,7 @@
     <!--  MIT License-->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2025-04-16 -->
+    <!-- Page build 2025-04-17 -->
      <!-- Jekyll Version 4.4.1 -->
     <!--Google Structured Data-->
     <script type="application/ld+json">
@@ -18,8 +18,8 @@
       },
       "headline": "Arcanum Caedis",
       "image": "",
-      "datePublished": "2025-04-16T18:18:03+02:00",
-      "dateModified": "2025-04-16T18:18:03+02:00",
+      "datePublished": "2025-04-17T12:29:38+02:00",
+      "dateModified": "2025-04-17T12:29:38+02:00",
       "author": {
         "@type": "Person",
         "name": "Arcanum Caedis"
@@ -85,8 +85,6 @@
    <meta name="description" content="">
    <meta name="thumbnail" content="" >
    <meta name="robots" content="index, follow"><meta name="keywords" content="">
-    <!-- Chrome, Firefox OS and Opera -->
-  <meta name="theme-color" content="#1f4068">
     <!-- OpenGraph -->
    <meta property="og:title" content="Arcanum Caedis | Arcanum Caedis" >
    <meta property="og:site_name" content="Arcanum Caedis | " >
@@ -165,17 +163,46 @@
    <h1>Crónicas de Arcanum Caedis</h1>
    <p class="intro">Sigue las últimas noticias, descubrimientos y acontecimientos místicos del plano desgarrado por la magia y la arrogancia tecnocrática.</p>
  </header>
- <div class="arcanum-posts">
-     <article class="arcanum-post">
-       <h2><a href="/20250416_Arcanum-Caedis/">Arcanum Caedis</a></h2>
-       <p class="post-date">16 April 2025</p>
-       <p><blockquote>
- <p>“Lo que he encontrado es algo que solo podría haber nacido de un sueño trastornado o de un pecado aún mayor. Arcanum Caedis no es una tierra que se haya ganado ni que se haya merecido. Es un vestigio de lo que un día fue, una catástrofe viva que arde con el orgullo de quienes creyeron que podían controlar lo incontenible. La gente aquí… su vínculo con la magia es tan fuerte, tan inquebrantable, que ni las mismas máquinas que los Iluminados construyeron pueden arrastrarlos del todo hacia la civilización. Son seres de pura energía, capaces de torcer la realidad con el simple pensamiento.”</p>
+ <div id="arcanum-posts" class="row g-3">
+     <div class="post-item col-12 col-md-6" style="display: none;">
+       <div class="card chulapa-card shadow-sm h-100">
+         <div class="row g-0">
+           <div class="col">
+             <div class="card-body">
+               <h2 class="card-title h5"><a href="/20250416_Arcanum-Caedis/">Arcanum Caedis</a></h2>
+               <p class="card-text"><small class="text-muted">16 April 2025</small></p>
+               <p class="card-text"><blockquote>
+ <p>“Lo que he encontrado es algo que solo podría haber nacido de un sueño trastornado o de un pecado aún mayor.”</p>
 </blockquote>
 </p>
-        <a href="/20250416_Arcanum-Caedis/" class="read-more">Leer más</a>
-     </article>
+                <a href="/20250416_Arcanum-Caedis/" class="btn btn-sm btn-outline-secondary">Leer más</a>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="post-item col-12 col-md-6" style="display: none;">
+       <div class="card chulapa-card shadow-sm h-100">
+         <div class="row g-0">
+           <div class="col">
+             <div class="card-body">
+               <h2 class="card-title h5"><a href="/20150115_pirates/">Fanáticos</a></h2>
+               <p class="card-text"><small class="text-muted">15 January 2015</small></p>
+               <p class="card-text"><blockquote>
+ <p>“Cita súper importante sobre las naciones de los fanáticos”</p>
+</blockquote>
+</p>
+                <a href="/20150115_pirates/" class="btn btn-sm btn-outline-secondary">Leer más</a>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
  </div>
+  <!-- Controles de paginación -->
+ <nav class="pagination-nav mt-4 text-center">
+   <ul id="pagination" class="pagination justify-content-center"></ul>
+ </nav>
 </section>
 </article>
 		</div>
@@ -193,7 +220,7 @@
               </span><span class="sr-only">RSS</span>
             </a></div><p class="mt-2 mb-3">&copy; 2025 Arcanum Caedis</p>
           <!-- Do not remove this in order to give  attributions -->
-         <p class="chulapa-footer-brand">Powered by <a href="https://dieghernan.github.io/chulapa"> <span class="chulapa">Chulapa</span> Jekyll Theme</a></p>
+         <p class="chulapa-footer-brand">Powered by <a href="https://dieghernan.github.io/chulapa"> <span class="chulapa">Chulapa</span> Jekyll Theme</a><br><b>GitDev Dark</b> skin by <a href="https://github.com/dieghernan">dieghernan</a></p>
           <!-- End  attributions -->
        </div>
      </div>
@@ -224,6 +251,30 @@
       });
       cards.forEach(card => observer.observe(card));
     });
+    // Paginación
+  document.addEventListener("DOMContentLoaded", function () {
+    const postsPerPage = 4;
+    const posts = document.querySelectorAll(".post-item");
+    const totalPosts = posts.length;
+    const totalPages = Math.ceil(totalPosts / postsPerPage);
+    const pagination = document.getElementById("pagination");
+    function showPage(page) {
+      posts.forEach((post, index) => {
+        post.style.display = (index >= (page - 1) * postsPerPage && index < page * postsPerPage) ? "block" : "none";
+      });
+      // Actualizar botones
+      pagination.innerHTML = "";
+      for (let i = 1; i <= totalPages; i++) {
+        const li = document.createElement("li");
+        li.className = `page-item ${i === page ? "active" : ""}`;
+        li.innerHTML = `<button class="page-link">${i}</button>`;
+        li.addEventListener("click", () => showPage(i));
+        pagination.appendChild(li);
+      }
+    }
+    // Mostrar primera página
+    if (totalPosts > 0) showPage(1);
+  });
   </script>
 <!-- end custom bottom scripts -->
 	</body>

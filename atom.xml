@@ -3,7 +3,7 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="https://jmesquerdo.github.io/arcanumcaedis/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="https://jmesquerdo.github.io/arcanumcaedis" rel="alternate" type="text/html" />
-	<updated>2025-04-16T18:18:03+02:00</updated>
+	<updated>2025-04-17T12:29:38+02:00</updated>
 	<id>https://jmesquerdo.github.io/arcanumcaedis/atom.xml</id>
 	<title>Arcanum Caedis</title>
 	
@@ -24,29 +24,39 @@
   		
 			&lt;img src=&#39;https://jmesquerdo.github.io/arcanumcaedis/assets/img/ArcanumInterna.webp&#39; &gt;
 			
-	&lt;p&gt;2 min.&lt;/p&gt;
+	&lt;p&gt;1 min.&lt;/p&gt;
 			&lt;blockquote&gt;
-  &lt;p&gt;“Lo que he encontrado es algo que solo podría haber nacido de un sueño trastornado o de un pecado aún mayor. Arcanum Caedis no es una tierra que se haya ganado ni que se haya merecido. Es un vestigio de lo que un día fue, una catástrofe viva que arde con el orgullo de quienes creyeron que podían controlar lo incontenible. La gente aquí… su vínculo con la magia es tan fuerte, tan inquebrantable, que ni las mismas máquinas que los Iluminados construyeron pueden arrastrarlos del todo hacia la civilización. Son seres de pura energía, capaces de torcer la realidad con el simple pensamiento.”&lt;/p&gt;
+  &lt;p&gt;“Lo que he encontrado es algo que solo podría haber nacido de un sueño trastornado o de un pecado aún mayor.”&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
   &lt;p class=&quot;blockquote-footer&quot;&gt;Maestro Elian de Vorath, Comandante de la Orden de los Vigilantes del Velo&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Arcanum Caedis no fue un regalo ni un descubrimiento, sino un error catastrófico nacido del orgullo de los Despertados y la arrogancia de los Iluminados. Una explosión de paradoja, un choque entre magia y tecnología, desgarró el tejido de la realidad, abriendo este plano como una herida en el cosmos. Su misma existencia es inestable, marcada por grietas espaciales que destellan con energías imposibles, una advertencia constante de que este mundo podría colapsar sobre sí mismo en cualquier momento.&lt;/p&gt;
-
-&lt;p&gt;La Tierra, degenerándose bajo el peso de siglos de guerra, se libró momentáneamente del conflicto cuando los magos y tecnócratas decidieron trasladar su lucha a este nuevo campo. Aquí, en las tierras fracturadas de Arcanum, establecieron sus bastiones. Los magos, maestros de las Esferas, manipulan la esencia misma del plano, levantando torres y murallas que respiran como seres vivos. Los tecnócratas, fieles a su dogma de orden y control, construyen enclaves fortificados donde la maquinaria murmura sus profecías mecánicas.&lt;/p&gt;
-
-&lt;p&gt;Sin embargo, no todo es conquista organizada. Las escaramuzas son constantes, cada encuentro una mezcla de brutalidad pragmática y desdén ideológico. No se trata solo de quién controla los recursos; se trata de imponer una visión, de demostrar que su paradigma es el único verdadero. En este tablero de guerra, los verdaderos peones son los habitantes originales de Arcanum Caedis.&lt;/p&gt;
-
-&lt;p&gt;Eran un pueblo sencillo, avanzados hasta los límites de la era preindustrial, con su propia relación con la naturaleza y los secretos del plano. Pero ahora sus aldeas están en ruinas, sus campos marchitos bajo las marchas inclementes de soldados tecnócratas y constructos mágicos. Los pocos sobrevivientes vagan como fantasmas, exiliados en su propio hogar, enfrentando horrores que ni siquiera comprenden mientras las fisuras del plano escupen monstruosidades irreales.&lt;/p&gt;
+&lt;div class=&quot;arcanum-post&quot;&gt;
+&lt;p&gt;
+Arcanum Caedis no fue un regalo ni un descubrimiento, sino un error catastrófico nacido del orgullo de los Despertados y la arrogancia de los Iluminados. Una explosión de paradoja, un choque entre magia y tecnología, desgarró el tejido de la realidad, abriendo este plano como una herida en el cosmos. Su misma existencia es inestable, marcada por grietas espaciales que destellan con energías imposibles, una advertencia constante de que este mundo podría colapsar sobre sí mismo en cualquier momento.
+&lt;/p&gt;
+&lt;p&gt;
+La Tierra, degenerándose bajo el peso de siglos de guerra, se libró momentáneamente del conflicto cuando los magos y tecnócratas decidieron trasladar su lucha a este nuevo campo. Aquí, en las tierras fracturadas de Arcanum, establecieron sus bastiones. Los magos, maestros de las Esferas, manipulan la esencia misma del plano, levantando torres y murallas que respiran como seres vivos. Los tecnócratas, fieles a su dogma de orden y control, construyen enclaves fortificados donde la maquinaria murmura sus profecías mecánicas.
+&lt;/p&gt;
+&lt;p&gt;
+Sin embargo, no todo es conquista organizada. Las escaramuzas son constantes, cada encuentro una mezcla de brutalidad pragmática y desdén ideológico. No se trata solo de quién controla los recursos; se trata de imponer una visión, de demostrar que su paradigma es el único verdadero. En este tablero de guerra, los verdaderos peones son los habitantes originales de Arcanum Caedis.
+&lt;/p&gt;
+&lt;p&gt;
+Eran un pueblo sencillo, avanzados hasta los límites de la era preindustrial, con su propia relación con la naturaleza y los secretos del plano. Pero ahora sus aldeas están en ruinas, sus campos marchitos bajo las marchas inclementes de soldados tecnócratas y constructos mágicos. Los pocos sobrevivientes vagan como fantasmas, exiliados en su propio hogar, enfrentando horrores que ni siquiera comprenden mientras las fisuras del plano escupen monstruosidades irreales.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;https://es.wikipedia.org/wiki/Arcanum_Caedis&quot; target=&quot;_blank&quot;&gt;Leer más en Wikipedia&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
 
 		</content>
 		
 		<author>
 			<name></name></author>
 		<summary type="html">&lt;blockquote&gt;
-  &lt;p&gt;“Lo que he encontrado es algo que solo podría haber nacido de un sueño trastornado o de un pecado aún mayor. Arcanum Caedis no es una tierra que se haya ganado ni que se haya merecido. Es un vestigio de lo que un día fue, una catástrofe viva que arde con el orgullo de quienes creyeron que podían controlar lo incontenible. La gente aquí… su vínculo con la magia es tan fuerte, tan inquebrantable, que ni las mismas máquinas que los Iluminados construyeron pueden arrastrarlos del todo hacia la civilización. Son seres de pura energía, capaces de torcer la realidad con el simple pensamiento.”&lt;/p&gt;
+  &lt;p&gt;“Lo que he encontrado es algo que solo podría haber nacido de un sueño trastornado o de un pecado aún mayor.”&lt;/p&gt;
 &lt;/blockquote&gt;
 </summary>
 		<category term="posts"/>
@@ -2010,8 +2020,8 @@ Be all my sins remembered.&lt;/p&gt;
 		<category term="posts"/>
 		<category term="exciting-stuff"/><category term="random"/><category term="wikipedia"/>
 	</entry><entry>
-		<title type="html">Pirates arrrr</title>
-		<link href="https://jmesquerdo.github.io/arcanumcaedis/20150115_pirates/" rel="alternate" type="text/html" title="Pirates arrrr"/>
+		<title type="html">Fanáticos</title>
+		<link href="https://jmesquerdo.github.io/arcanumcaedis/20150115_pirates/" rel="alternate" type="text/html" title="Fanáticos"/>
 		<published>2015-01-15T00:00:00+01:00</published>
 		<updated>2015-01-15T00:00:00+01:00</updated>
 		<id>https://jmesquerdo.github.io/arcanumcaedis/20150115_pirates/</id>
@@ -2019,16 +2029,28 @@ Be all my sins remembered.&lt;/p&gt;
 		
   		
 	&lt;p&gt;1 min.&lt;/p&gt;
-			&lt;p&gt;Piracy is typically an act of robbery or criminal violence at sea. The term can include acts committed on land, in the air, or in other major bodies of water or on a shore. It does not normally include crimes committed against persons traveling on the same vessel as the perpetrator (e.g. one passenger stealing from others on the same vessel). The term has been used throughout history to refer to raids across land borders by non-state agents.&lt;/p&gt;
+			&lt;blockquote&gt;
+  &lt;p&gt;“Cita súper importante sobre las naciones de los fanáticos”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p class=&quot;blockquote-footer&quot;&gt;Explicada por un lunático cualquiera o algo por el estilo pero con acento.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Piracy is typically an act of robbery or criminal violence at sea. The term can include acts committed on land, in the air, or in other major bodies of water or on a shore. It does not normally include crimes committed against persons traveling on the same vessel as the perpetrator (e.g. one passenger stealing from others on the same vessel). The term has been used throughout history to refer to raids across land borders by non-state agents..&lt;/p&gt;
+
+&lt;p&gt;blablabla&lt;/p&gt;
 
 		</content>
 		
 		<author>
 			<name>Arcanum Caedis</name></author>
-		<summary type="html">&lt;p&gt;Piracy is typically an act of robbery or criminal violence at sea. The term can include acts committed on land, in the air, or in other major bodies of water or on a shore. It does not normally include crimes committed against persons traveling on the same vessel as the perpetrator (e.g. one passenger stealing from others on the same vessel). The term has been used throughout history to refer to raids across land borders by non-state agents.&lt;/p&gt;
+		<summary type="html">&lt;blockquote&gt;
+  &lt;p&gt;“Cita súper importante sobre las naciones de los fanáticos”&lt;/p&gt;
+&lt;/blockquote&gt;
 </summary>
 		<category term="posts"/>
-		<category term="pirates"/><category term="random"/><category term="wikipedia"/>
+		<category term="Arcanum"/><category term="Naciones"/>
 	</entry><entry>
 		<title type="html">First post!</title>
 		<link href="https://jmesquerdo.github.io/arcanumcaedis/20150104_first-post/" rel="alternate" type="text/html" title="First post!"/>

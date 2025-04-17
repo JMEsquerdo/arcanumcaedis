@@ -5,7 +5,7 @@
     <!--  MIT License-->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2025-04-16 -->
+    <!-- Page build 2025-04-17 -->
      <!-- Jekyll Version 4.4.1 -->
     <!--Google Structured Data-->
     <script type="application/ld+json">
@@ -87,8 +87,6 @@
    <meta name="description" content="Showing al the different Bootstrap components available - This is a demo page showing the different components of Bootstrap and how they look on this site un...">
    <meta name="thumbnail" content="https://picsum.photos/id/1018/2000/2000" >
    <meta name="robots" content="index, follow"><meta name="keywords" content="">
-    <!-- Chrome, Firefox OS and Opera -->
-  <meta name="theme-color" content="#1f4068">
     <!-- OpenGraph -->
    <meta property="og:title" content="Current skin | Arcanum Caedis" >
    <meta property="og:site_name" content="Arcanum Caedis | " >
@@ -1894,7 +1892,7 @@
               </span><span class="sr-only">RSS</span>
             </a></div><p class="mt-2 mb-3">&copy; 2025 Arcanum Caedis</p>
           <!-- Do not remove this in order to give  attributions -->
-         <p class="chulapa-footer-brand">Powered by <a href="https://dieghernan.github.io/chulapa"> <span class="chulapa">Chulapa</span> Jekyll Theme</a></p>
+         <p class="chulapa-footer-brand">Powered by <a href="https://dieghernan.github.io/chulapa"> <span class="chulapa">Chulapa</span> Jekyll Theme</a><br><b>GitDev Dark</b> skin by <a href="https://github.com/dieghernan">dieghernan</a></p>
           <!-- End  attributions -->
        </div>
      </div>
@@ -1925,6 +1923,30 @@
       });
       cards.forEach(card => observer.observe(card));
     });
+    // Paginación
+  document.addEventListener("DOMContentLoaded", function () {
+    const postsPerPage = 4;
+    const posts = document.querySelectorAll(".post-item");
+    const totalPosts = posts.length;
+    const totalPages = Math.ceil(totalPosts / postsPerPage);
+    const pagination = document.getElementById("pagination");
+    function showPage(page) {
+      posts.forEach((post, index) => {
+        post.style.display = (index >= (page - 1) * postsPerPage && index < page * postsPerPage) ? "block" : "none";
+      });
+      // Actualizar botones
+      pagination.innerHTML = "";
+      for (let i = 1; i <= totalPages; i++) {
+        const li = document.createElement("li");
+        li.className = `page-item ${i === page ? "active" : ""}`;
+        li.innerHTML = `<button class="page-link">${i}</button>`;
+        li.addEventListener("click", () => showPage(i));
+        pagination.appendChild(li);
+      }
+    }
+    // Mostrar primera página
+    if (totalPosts > 0) showPage(1);
+  });
   </script>
 <!-- end custom bottom scripts -->
 	</body>

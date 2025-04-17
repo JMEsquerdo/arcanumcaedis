@@ -24,13 +24,13 @@ var store = [{
         "url": "https://jmesquerdo.github.io/arcanumcaedis/20150104_first-post/",
         "img": null
       },{
-        "title": "Pirates arrrr",
+        "title": "Fanáticos",
         "subtitle": "",
-        "excerpt": "<p>Piracy is typically an act of robbery or criminal violence at sea. The term can include acts committed on land, in the air, or in other major bodies of water or on a shore. It does not normally include crimes committed against persons traveling on the same vessel as the perpetrator (e.g. one passenger stealing from others on the same vessel). The term has been used throughout history to refer to raids across land borders by non-state agents.</p>",
-        "content": "Piracy is typically an act of robbery or criminal violence at sea. The term can include acts committed on land, in the air, or in other major bodies of water...",
-        "categories": [],
+        "excerpt": "<p>“Cita súper importante sobre las naciones de los fanáticos”</p>",
+        "content": "“Cita súper importante sobre las naciones de los fanáticos” Explicada por un lunático cualquiera o algo por el estilo pero con acento. Piracy is typically an act of robbery or...",
+        "categories": ["blog","arcanum"],
         "date": "2015-01-15",
-        "tags": ["pirates","random","wikipedia"],
+        "tags": ["Naciones","Arcanum"],
         "url": "https://jmesquerdo.github.io/arcanumcaedis/20150115_pirates/",
         "img": null
       },{
@@ -126,8 +126,8 @@ var store = [{
       },{
         "title": "Arcanum Caedis",
         "subtitle": "",
-        "excerpt": "<p>“Lo que he encontrado es algo que solo podría haber nacido de un sueño trastornado o de un pecado aún mayor. Arcanum Caedis no es una tierra que se haya ganado ni que se haya merecido. Es un vestigio de lo que un día fue, una catástrofe viva que arde con el orgullo de quienes creyeron que podían controlar lo incontenible. La gente aquí… su vínculo con la magia es tan fuerte, tan inquebrantable, que ni las mismas máquinas que los Iluminados construyeron pueden arrastrarlos del todo hacia la civilización. Son seres de pura energía, capaces de torcer la realidad con el simple pensamiento.”</p>",
-        "content": "“Lo que he encontrado es algo que solo podría haber nacido de un sueño trastornado o de un pecado aún mayor. Arcanum Caedis no es una tierra que se haya...",
+        "excerpt": "<p>“Lo que he encontrado es algo que solo podría haber nacido de un sueño trastornado o de un pecado aún mayor.”</p>",
+        "content": "“Lo que he encontrado es algo que solo podría haber nacido de un sueño trastornado o de un pecado aún mayor.” Maestro Elian de Vorath, Comandante de la Orden de...",
         "categories": ["blog","arcanum"],
         "date": "2025-04-16",
         "tags": ["landscape","trips","downtown","edinburgh","kramdown","bootstrap","wikipedia","demo","image"],
@@ -139,7 +139,7 @@ var store = [{
         "excerpt": "<p>A demo page checking Markdown</p>",
         "content": "What’s Markdown? Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one...",
         "categories": ["tutorial"],
-        "date": "2025-04-16",
+        "date": "2025-04-17",
         "tags": ["starter","syntax","markdown"],
         "url": "https://jmesquerdo.github.io/arcanumcaedis/cheatsheets/01-markdown-cheat-sheet",
         "img": null
@@ -149,7 +149,7 @@ var store = [{
         "excerpt": "<p>kramdown supercharges Markdown with some interesting features.</p>",
         "content": "What’s kramdown? kramdown supercharges Markdown with some interesting features. kramdown is the default Jekyll Markdown processor. When creating your site with Jekyll, you can use the standard Markdown syntax plus...",
         "categories": ["tutorial"],
-        "date": "2025-04-16",
+        "date": "2025-04-17",
         "tags": ["starter","syntax","kramdown"],
         "url": "https://jmesquerdo.github.io/arcanumcaedis/cheatsheets/02-kramdown-cheat-sheet",
         "img": null

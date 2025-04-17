@@ -5,7 +5,7 @@
     <!--  MIT License-->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2025-04-16 -->
+    <!-- Page build 2025-04-17 -->
      <!-- Jekyll Version 4.4.1 -->
     <!--Google Structured Data-->
     <script type="application/ld+json">
@@ -87,8 +87,6 @@
    <meta name="description" content="Best sport ever! - From Wikipedia:">
    <meta name="thumbnail" content="" >
    <meta name="robots" content="index, follow"><meta name="keywords" content="">
-    <!-- Chrome, Firefox OS and Opera -->
-  <meta name="theme-color" content="#1f4068">
     <!-- OpenGraph -->
    <meta property="og:title" content="Soccer | Arcanum Caedis" >
    <meta property="og:site_name" content="Arcanum Caedis | " >
@@ -211,10 +209,10 @@
 	  </a>
    </li>
    <li class="page-item border-0 disabled text-left ml-0 mr-auto d-none d-md-inline ">
-     <p class="page-link chulapa-label">Pirates arrrr</p>
+     <p class="page-link chulapa-label">Fanáticos</p>
    </li>
    <li class="page-item border-0 disabled text-left ml-0 mr-auto d-none d-sm-inline d-md-none ">
-     <p class="page-link chulapa-label">Pirates arrrr</p>
+     <p class="page-link chulapa-label">Fanáticos</p>
    </li>
 	 <li class="page-item disabled mx-auto invisible">
 	  <p class="page-link">|</p>
@@ -249,23 +247,6 @@
              <nav class="card-group" aria-label="related-articles"><div class="card  border chulapa-related">
        <div class="card-body">
          <p class="card-title chulapa-headingfont">
-            <a href="https://jmesquerdo.github.io/arcanumcaedis/20150115_pirates/" class="chulapa-text-body-color">
-              Pirates arrrr
-            </a>
-         </p>
-         </div>
-       <div class="card-footer bg-transparent">
-            <small>
-              <i class="far fa-calendar" aria-hidden="true"></i>
-              <time datetime="2015-01-15T00:00:00+01:00">
-                enero 15, 2015
-              </time>
-            </small>
-       </div>
-     </div>
-     <div class="card ml-sm-1 border chulapa-related">
-       <div class="card-body">
-         <p class="card-title chulapa-headingfont">
             <a href="https://jmesquerdo.github.io/arcanumcaedis/20150104_first-post/" class="chulapa-text-body-color">
               First post!
             </a>
@@ -296,7 +277,7 @@
               </span><span class="sr-only">RSS</span>
             </a></div><p class="mt-2 mb-3">&copy; 2025 Arcanum Caedis</p>
           <!-- Do not remove this in order to give  attributions -->
-         <p class="chulapa-footer-brand">Powered by <a href="https://dieghernan.github.io/chulapa"> <span class="chulapa">Chulapa</span> Jekyll Theme</a></p>
+         <p class="chulapa-footer-brand">Powered by <a href="https://dieghernan.github.io/chulapa"> <span class="chulapa">Chulapa</span> Jekyll Theme</a><br><b>GitDev Dark</b> skin by <a href="https://github.com/dieghernan">dieghernan</a></p>
           <!-- End  attributions -->
        </div>
      </div>
@@ -327,6 +308,30 @@
       });
       cards.forEach(card => observer.observe(card));
     });
+    // Paginación
+  document.addEventListener("DOMContentLoaded", function () {
+    const postsPerPage = 4;
+    const posts = document.querySelectorAll(".post-item");
+    const totalPosts = posts.length;
+    const totalPages = Math.ceil(totalPosts / postsPerPage);
+    const pagination = document.getElementById("pagination");
+    function showPage(page) {
+      posts.forEach((post, index) => {
+        post.style.display = (index >= (page - 1) * postsPerPage && index < page * postsPerPage) ? "block" : "none";
+      });
+      // Actualizar botones
+      pagination.innerHTML = "";
+      for (let i = 1; i <= totalPages; i++) {
+        const li = document.createElement("li");
+        li.className = `page-item ${i === page ? "active" : ""}`;
+        li.innerHTML = `<button class="page-link">${i}</button>`;
+        li.addEventListener("click", () => showPage(i));
+        pagination.appendChild(li);
+      }
+    }
+    // Mostrar primera página
+    if (totalPosts > 0) showPage(1);
+  });
   </script>
 <!-- end custom bottom scripts -->
 	</body>
