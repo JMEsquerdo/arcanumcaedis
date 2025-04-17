@@ -7,8 +7,8 @@ title: Arcanum Caedis
 title_separator: null
 subtitle: null
 description: null
-url: null
-baseurl: null
+url:
+baseurl:
 repository: JMEsquerdo/arcanumcaedis
 words_per_minute: null
 timezone: Europe/Madrid
