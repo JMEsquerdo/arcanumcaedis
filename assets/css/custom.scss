@@ -152,3 +152,59 @@ blockquote {
   color: #d4af37;  // Color dorado para destacar al autor
   font-weight: bold;
 }
+
+// ==========================================================
+// 🎨 Temas visuales narrativos por facción (no afecta estilos globales)
+// ==========================================================
+// -------------------------------
+// Arcanum
+// -------------------------------
+/* Estilo global para el texto */
+.arcanum-post {
+  background-color: #1f4068 !important;
+  padding: 1.5rem !important;
+  border-radius: 0.75rem !important;
+  border: 1px solid #9f4dff !important;
+  box-shadow: 0 0 10px rgba(159, 77, 255, 0.2) !important;
+  color: #fdf6e3 !important;
+  font-family: 'Garamond', serif !important;
+  line-height: 1.8 !important;
+  font-size: 1.1rem !important;
+}
+
+/* Estilo para los títulos, para que resalten */
+.arcanum-post h1, .arcanum-post h2 {
+  font-family: 'Cinzel', serif; /* Fuente con aire medieval y clásico */
+  color: #c9a4ff; /* Un tono morado tenue que evoca lo místico */
+  text-shadow: 0 0 6px rgba(159, 77, 255, 0.4);
+  margin-bottom: 1rem;
+}
+
+/* Estilo para los párrafos (sin clases específicas) */
+.arcanum-post p {
+  font-family: 'Garamond', serif; /* Consistencia en la fuente de todo el texto */
+  color: #fdf6e3; /* Blanco cálido para el texto */
+  margin-bottom: 1.5rem; /* Separación entre párrafos */
+  text-align: justify; /* Justificar el texto para una mejor presentación */
+}
+
+/* Estilo para citas o fragmentos importantes (si las necesitas) */
+.arcanum-post blockquote {
+  background-color: #2a3d56;
+  border-left: 4px solid #9f4dff;
+  padding: 1rem 1.5rem;
+  font-style: italic;
+  color: #c9a4ff;
+  margin-bottom: 2rem;
+}
+
+/* Enlaces en el texto (si hay) */
+.arcanum-post a {
+  color: #9f4dff;
+  text-decoration: underline;
+}
+
+.arcanum-post a:hover {
+  color: #d4af37; /* Color dorado cuando el enlace es hover */
+  text-decoration: none;
+}
