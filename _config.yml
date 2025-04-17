@@ -98,7 +98,10 @@ chulapa-skin:
   highlight: null
   skin: gitdev-dark
   autothemer:
-  vars: 
+  vars:
+  headings-font-family: "'Quintessential', cursive"
+  subtitle-font-family: "'Cormorant Garamond', serif"
+  font-family-sans-serif: "'Quattrocento Sans', sans-serif" 
 paginate: 4
 paginate_path: /blog/page:num/
 paginator_maxnum: 3

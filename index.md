@@ -7,7 +7,7 @@ custom_title: true
 ---
 <div class="arcana-grid">
 
-  <a href="/2025-4-16-Arcanum-Caedis.md" class="arcana-card lazy-bg arcanum" style="background-image: url('assets/img/Arcanum_mini.webp');" data-bg="assets/img/Arcanum.webp" aria-label="Explora el mundo de Arcanum Caedis, lleno de magia y secretos">
+  <a href="{{ site.baseurl }}/arcanum/" class="arcana-card lazy-bg arcanum" style="background-image: url('assets/img/Arcanum_mini.webp');" data-bg="assets/img/Arcanum.webp" aria-label="Explora el mundo de Arcanum Caedis, lleno de magia y secretos">
     <h2>Arcanum Caedis</h2>
     <img src="assets/img/Arcanum.webp" alt="Imagen de Arcanum Caedis, un paisaje misterioso con magia" class="sr-only" loading="lazy">
   </a>
