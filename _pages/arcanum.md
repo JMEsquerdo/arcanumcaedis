@@ -24,10 +24,10 @@ permalink: /arcanum/
             {% endif %}
             <div class="col">
               <div class="card-body">
-                <h2 class="card-title h5"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <h2 class="card-title h5"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
                 <p class="card-text"><small class="text-muted">{{ post.date | date: "%d %B %Y" }}</small></p>
                 <p class="card-text">{{ post.excerpt }}</p>
-                <a href="{{ post.url }}" class="btn btn-sm btn-outline-secondary">Leer más</a>
+                <a href="{{  post.url | relative_url }}" class="btn btn-sm btn-outline-secondary">Leer más</a>
               </div>
             </div>
           </div>
