@@ -1,26 +1,31 @@
 <!-- start custom scripts to be placed at the bottom of the page -->
 
 <script>
-    // Lazy load de imágenes de fondo
-    document.addEventListener("DOMContentLoaded", function () {
-      const cards = document.querySelectorAll('.lazy-bg');
-      const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            const bg = entry.target.getAttribute('data-bg');
-            entry.target.style.backgroundImage = `url('${bg}')`;
-            observer.unobserve(entry.target);
-          }
-        });
-      }, {
-        rootMargin: '100px',
-        threshold: 0.1
+  // Obtener baseurl desde Jekyll (esto solo funciona si el script está en un archivo .html/.md procesado por Jekyll)
+  const baseUrl = "{{ site.baseurl }}";
+
+  // Lazy load de imágenes de fondo
+  document.addEventListener("DOMContentLoaded", function () {
+    const cards = document.querySelectorAll('.lazy-bg');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const bg = entry.target.getAttribute('data-bg');
+          // Ajuste para asegurar baseUrl si usas rutas relativas en data-bg
+          const fullBg = bg.startsWith('http') ? bg : baseUrl + '/' + bg;
+          entry.target.style.backgroundImage = `url('${fullBg}')`;
+          observer.unobserve(entry.target);
+        }
       });
-  
-      cards.forEach(card => observer.observe(card));
+    }, {
+      rootMargin: '100px',
+      threshold: 0.1
     });
-  
-    // Paginación
+
+    cards.forEach(card => observer.observe(card));
+  });
+
+  // Paginación
   document.addEventListener("DOMContentLoaded", function () {
     const postsPerPage = 4;
     const posts = document.querySelectorAll(".post-item");
@@ -47,9 +52,7 @@
     // Mostrar primera página
     if (totalPosts > 0) showPage(1);
   });
+</script>
 
-  
-  
-  </script>
 
 <!-- end custom bottom scripts -->
