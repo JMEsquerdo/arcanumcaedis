@@ -1,5 +1,6 @@
 ---
-layout: default
+header_type: "hero"
+header_img : "assets/img/Arcanum.webp"
 title: Arcanum Caedis
 permalink: /arcanum/
 ---
@@ -7,7 +8,7 @@ permalink: /arcanum/
 <section class="arcanum-section">
   <header class="arcanum-header">
     <h1>Crónicas de Arcanum Caedis</h1>
-    <p class="intro">Sigue las últimas noticias, descubrimientos y acontecimientos místicos del plano desgarrado por la magia y la arrogancia tecnocrática.</p>
+    <p>Sigue las últimas noticias, descubrimientos y acontecimientos místicos del plano desgarrado por la magia y la arrogancia tecnocrática.</p>
   </header>
 
   <div id="arcanum-posts" class="row g-3">

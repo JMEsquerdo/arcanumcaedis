@@ -6,6 +6,12 @@
 // --- Estilo personalizado mágico-tecnológico sin uso de variables no definidas ---
 
 // Efecto de bordes luminosos
+blockquote {
+  color: #d4af37 !important;
+  border-left: 4px solid #b87333 !important; // borde cobre
+  background-color: transparent !important;
+}
+
 // Fondo de grimorio
 .bg-torre-mago {
     background-color: #0b1a2b;
@@ -130,81 +136,342 @@ body {
   }
 
 
-// -------------------------------
-// ✏️ Citas de blog - Falta validación de TESTER
-// -------------------------------
-// Estilo para las citas (blockquote)
-blockquote {
-  font-family: 'Uncial Antiqua', serif; // Fuente para cita, similar a la usada en los Herméticos
-  font-style: italic;  // Cursiva para destacar la cita
-  border-left: 4px solid #5c4c17;  // Línea lateral dorada (un toque visual para citas)
-  padding-left: 1rem;  // Espaciado para que la cita no esté pegada a la línea
-  margin: 1rem 0;
-  color: #5c4c17;  // Color de texto (similar a tus textos principales)
-  background-color: rgba(0, 0, 0, 0.1);  // Fondo sutil para la cita
-}
-
-// Estilo para el pie de la cita (footer)
-.blockquote-footer {
-  font-family: 'Montserrat Alternates', sans-serif; // Fuente de pie de cita (para contraste)
-  font-size: 0.9rem;  // Fuente más pequeña para el pie de la cita
-  text-align: right;  // Alineación a la derecha para el pie
-  color: #d4af37;  // Color dorado para destacar al autor
-  font-weight: bold;
-}
-
 // ==========================================================
 // 🎨 Temas visuales narrativos por facción (no afecta estilos globales)
 // ==========================================================
 // -------------------------------
 // Arcanum
 // -------------------------------
-/* Estilo global para el texto */
-.arcanum-post {
-  background-color: #1f4068 !important;
-  padding: 1.5rem !important;
-  border-radius: 0.75rem !important;
-  border: 1px solid #9f4dff !important;
-  box-shadow: 0 0 10px rgba(159, 77, 255, 0.2) !important;
-  color: #fdf6e3 !important;
-  font-family: 'Garamond', serif !important;
-  line-height: 1.8 !important;
-  font-size: 1.1rem !important;
+
+.arcana-card.arcanum {
+  border: 2px solid #8b5e3c; // Cobre oscuro
+  box-shadow: 0 0 12px rgba(202, 166, 255, 0.25); // Brillo mágico
+
+  h2 {
+    font-family: 'Cinzel Decorative', cursive; // Título en Cinzel Decorative
+    color: #d4af37; // Dorado
+    text-shadow: 0 0 6px rgba(139, 94, 60, 0.7), 0 0 8px rgba(202, 166, 255, 0.5); // Sombra en cobre y toque mágico
+  }
 }
 
-/* Estilo para los títulos, para que resalten */
-.arcanum-post h1, .arcanum-post h2 {
-  font-family: 'Cinzel', serif; /* Fuente con aire medieval y clásico */
-  color: #c9a4ff; /* Un tono morado tenue que evoca lo místico */
-  text-shadow: 0 0 6px rgba(159, 77, 255, 0.4);
-  margin-bottom: 1rem;
-}
+.arcanum-section {
+  padding: 3rem 2rem;
+  color: #f5f0e6; // Texto marfil
+  font-family: 'Cormorant Garamond', serif; // Cormorant Garamond para el cuerpo
 
-/* Estilo para los párrafos (sin clases específicas) */
-.arcanum-post p {
-  font-family: 'Garamond', serif; /* Consistencia en la fuente de todo el texto */
-  color: #fdf6e3; /* Blanco cálido para el texto */
-  margin-bottom: 1.5rem; /* Separación entre párrafos */
-  text-align: justify; /* Justificar el texto para una mejor presentación */
-}
+  .arcanum-header {
+    text-align: center;
 
-/* Estilo para citas o fragmentos importantes (si las necesitas) */
-.arcanum-post blockquote {
-  background-color: #2a3d56;
-  border-left: 4px solid #9f4dff;
-  padding: 1rem 1.5rem;
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      font-family: 'Cinzel Decorative', cursive; // Título en Cinzel Decorative
+      color: #d4af37; // Dorado
+      text-shadow: 0 0 8px rgba(139, 94, 60, 0.7), 0 0 10px rgba(202, 166, 255, 0.4); // Sombra en cobre y toque mágico
+    }
+  }
+
+  .arcanum-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+
+  .arcanum-post {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    border: 1px solid #8b5e3c; // Borde cobre oscuro
+    box-shadow: 0 0 10px rgba(202, 166, 255, 0.15);
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #d4af37; // Dorado
+      font-family: 'Cinzel Decorative', cursive; // Título en Cinzel Decorative
+      text-shadow: 0 0 5px rgba(139, 94, 60, 0.7), 0 0 6px rgba(202, 166, 255, 0.3); // Sombra en cobre oscuro
+    }
+
+    .post-date {
+      font-size: 0.9rem;
+      color: #8b5e3c; // Cobre oscuro
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #f5f0e6; // Texto marfil para los párrafos
+      font-family: 'Cormorant Garamond', serif; // Cormorant Garamond para los párrafos
+    }
+
+    .read-more {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #d4af37; // Dorado
+      text-decoration: underline;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: none;
+        color: #8b5e3c; // Cobre oscuro al hacer hover
+      }
+    }
+  }
+}
+// Estilo para las citas específicas de Arcanum
+.arcana-cita {
+  font-family: 'Uncial Antiqua', serif;
   font-style: italic;
-  color: #c9a4ff;
-  margin-bottom: 2rem;
+  border-left: 4px solid #d4af37; // Dorado para Arcanum
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: #f5f0e6; // Texto marfil para Arcanum
+  background-color: rgba(0, 0, 0, 0.2); // Fondo más oscuro para Arcanum
+  border-radius: 8px;
 }
 
-/* Enlaces en el texto (si hay) */
-.arcanum-post a {
-  color: #9f4dff;
-  text-decoration: underline;
+.arcana-cita-footer {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 0.9rem;
+  text-align: right;
+  color: #d4af37; // Dorado para el autor en Arcanum
+  font-weight: bold;
 }
 
-.arcanum-post a:hover {
-  color: #d4af37; /* Color dorado cuando el enlace es hover */
-  text-decoration: none;
+// -------------------------------
+// Concordia
+// -------------------------------
+.arcana-card.concordia {
+  border: 2px solid #ff6f61;
+  box-shadow: 0 0 12px rgba(255, 111, 97, 0.3);
+
+  h2 {
+    font-family: 'Lora', serif;
+    color: #ff6f61;
+    text-shadow: 0 0 6px rgba(255, 111, 97, 0.5);
+  }
+}
+
+.concordia-section {
+  padding: 3rem 2rem;
+  background-color: #2c3e50;
+  color: #fdf6e3;
+  font-family: 'Lora', serif;
+
+  .concordia-header {
+    text-align: center;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      color: #ff6f61;
+      text-shadow: 0 0 6px rgba(255, 111, 97, 0.3);
+    }
+  }
+
+  .concordia-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+
+  .concordia-post {
+    background-color: #34495e;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    border: 1px solid #ff6f61;
+    box-shadow: 0 0 10px rgba(255, 111, 97, 0.2);
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #ff6f61;
+      font-family: 'Lora', serif;
+      text-shadow: 0 0 4px rgba(255, 111, 97, 0.3);
+    }
+
+    .post-date {
+      font-size: 0.9rem;
+      color: #d4af37;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .read-more {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #ff6f61;
+      text-decoration: underline;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: none;
+        color: #d4af37;
+      }
+    }
+  }
+}
+
+// -------------------------------
+// Tecnocracia
+// -------------------------------
+.arcana-card.tecnocracia {
+  border: 2px solid #00ffe7;
+  box-shadow: 0 0 12px rgba(0, 255, 231, 0.3);
+
+  h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #00ffe7;
+    text-shadow: 0 0 6px rgba(0, 255, 231, 0.5);
+  }
+}
+
+.tecnocracia-section {
+  padding: 3rem 2rem;
+  background-color: #0b1a2b;
+  color: #fdf6e3;
+  font-family: 'Arial', sans-serif;
+
+  .tecnocracia-header {
+    text-align: center;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      color: #00ffe7;
+      text-shadow: 0 0 6px rgba(0, 255, 231, 0.3);
+    }
+  }
+
+  .tecnocracia-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+
+  .tecnocracia-post {
+    background-color: #1f4068;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    border: 1px solid #00ffe7;
+    box-shadow: 0 0 10px rgba(0, 255, 231, 0.2);
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #00ffe7;
+      font-family: 'Orbitron', sans-serif;
+      text-shadow: 0 0 4px rgba(0, 255, 231, 0.3);
+    }
+
+    .post-date {
+      font-size: 0.9rem;
+      color: #d4af37;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .read-more {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #00ffe7;
+      text-decoration: underline;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: none;
+        color: #d4af37;
+      }
+    }
+  }
+}
+
+// -------------------------------
+// Tierra
+// -------------------------------
+.arcana-card.tierra {
+  border: 2px solid #a3be8c;
+  box-shadow: 0 0 12px rgba(163, 190, 140, 0.3);
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #a3be8c;
+    text-shadow: 0 0 6px rgba(163, 190, 140, 0.5);
+  }
+}
+
+.tierra-section {
+  padding: 3rem 2rem;
+  background-color: #3b4d2e;
+  color: #fdf6e3;
+  font-family: 'Roboto', sans-serif;
+
+  .tierra-header {
+    text-align: center;
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      color: #a3be8c;
+      text-shadow: 0 0 6px rgba(163, 190, 140, 0.3);
+    }
+  }
+
+  .tierra-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+
+  .tierra-post {
+    background-color: #4f5d3e;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    border: 1px solid #a3be8c;
+    box-shadow: 0 0 10px rgba(163, 190, 140, 0.2);
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #a3be8c;
+      font-family: 'Roboto', sans-serif;
+      text-shadow: 0 0 4px rgba(163, 190, 140, 0.3);
+    }
+
+    .post-date {
+      font-size: 0.9rem;
+      color: #d4af37;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .read-more {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #a3be8c;
+      text-decoration: underline;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: none;
+        color: #d4af37;
+      }
+    }
+  }
 }
