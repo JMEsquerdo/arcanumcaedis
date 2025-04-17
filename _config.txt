@@ -96,9 +96,20 @@ googlefonts:
   googlefonts: https://fonts.googleapis.com/css2?family=Quintessential&family=Cormorant+Garamond&family=Quattrocento+Sans:wght@400;700&display=swap
 chulapa-skin:
   highlight: null
-  skin: gitdev-dark
-  autothemer:
-  vars: 
+  skin: null
+  autothemer: true
+  vars:
+    primary: "#1f4068"
+    secondary: "#d4af37"
+    success: "#28a745"
+    danger: "#8b0000"
+    info: "#3ca3e6"
+    warning: "#e0a800"
+    light: "#fdf6e3"
+    dark: "#0b1a2b"
+    headings-font-family: "'Quintessential', cursive"
+    subtitle-font-family: "'Cormorant Garamond', serif"
+    font-family-sans-serif: "'Quattrocento Sans', sans-serif"
 paginate: 4
 paginate_path: /blog/page:num/
 paginator_maxnum: 3
