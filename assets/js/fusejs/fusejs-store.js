@@ -27,7 +27,7 @@ var store = [{
         "title": "Fanáticos",
         "subtitle": "",
         "excerpt": "<p>“Cita súper importante sobre las naciones de los fanáticos”</p>",
-        "content": "“Cita súper importante sobre las naciones de los fanáticos” Explicada por un lunático cualquiera o algo por el estilo pero con acento. Piracy is typically an act of robbery or...",
+        "content": "“Cita súper importante sobre las naciones de los fanáticos” Explicada por un lunático cualquiera o algo por el estilo pero con acento. Torre del Vacío En las ruinas de un...",
         "categories": ["blog","arcanum"],
         "date": "2015-01-15",
         "tags": ["Naciones","Arcanum"],

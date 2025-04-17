@@ -7,8 +7,8 @@
 		<description></description>
 		<language>es-ES</language>
 		<copyright>(c) 2025, Arcanum Caedis</copyright>	
-		<pubDate>Thu, 17 Apr 2025 12:29:38 +0200</pubDate>
-		<lastBuildDate>Thu, 17 Apr 2025 12:29:38 +0200</lastBuildDate>
+		<pubDate>Thu, 17 Apr 2025 16:00:07 +0200</pubDate>
+		<lastBuildDate>Thu, 17 Apr 2025 16:00:07 +0200</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="https://jmesquerdo.github.io/arcanumcaedis/rss.xml" rel="self" type="application/rss+xml" />
@@ -1917,9 +1917,16 @@ Be all my sins remembered.</p>
   <p class="blockquote-footer">Explicada por un lunático cualquiera o algo por el estilo pero con acento.</p>
 </blockquote>
 
-<p>Piracy is typically an act of robbery or criminal violence at sea. The term can include acts committed on land, in the air, or in other major bodies of water or on a shore. It does not normally include crimes committed against persons traveling on the same vessel as the perpetrator (e.g. one passenger stealing from others on the same vessel). The term has been used throughout history to refer to raids across land borders by non-state agents..</p>
+<section class="arcanum-section">
+  <div class="arcanum-posts">
+    <article class="arcanum-post">
+      <h2>Torre del Vacío</h2>
+        <p>En las ruinas de un antiguo observatorio, los magos descubrieron una fisura que canta en sueños...</p>
+      <a href="#" class="read-more">Leer más</a>
+    </article>
+  </div>
+</section>
 
-<p>blablabla</p>
 </div>
 				]]>
 			</description>
