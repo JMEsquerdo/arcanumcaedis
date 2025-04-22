@@ -242,80 +242,91 @@ body {
 // -------------------------------
 // Concordia
 // -------------------------------
+// -------------------------------
+// Concordia (Magia Hermética)
+// -------------------------------
 .arcana-card.concordia {
-  border: 2px solid #ff6f61;
-  box-shadow: 0 0 12px rgba(255, 111, 97, 0.3);
+  border: 2px solid #a884f3; // Lavanda brillante
+  background-color: #2e1f47; // Púrpura profundo
+  box-shadow: 0 0 12px rgba(168, 132, 243, 0.4);
 
   h2 {
-    font-family: 'Lora', serif;
-    color: #ff6f61;
-    text-shadow: 0 0 6px rgba(255, 111, 97, 0.5);
+    font-family: 'Cinzel Decorative', serif;
+    color: #d6c4f3;
+    text-shadow: 0 0 6px rgba(214, 196, 243, 0.3);
   }
 }
 
 .concordia-section {
   padding: 3rem 2rem;
-  background-color: #2c3e50;
-  color: #fdf6e3;
-  font-family: 'Lora', serif;
+  background-color: #1c1428; // Fondo oscuro mágico
+  color: #e0d8f1;
+  font-family: 'Gloock', serif;
 
-  .concordia-header {
-    text-align: center;
-
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-      font-weight: 600;
-      color: #ff6f61;
-      text-shadow: 0 0 6px rgba(255, 111, 97, 0.3);
-    }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cardo', serif;
+    color: #a884f3;
+    text-shadow: 0 0 6px rgba(168, 132, 243, 0.3);
   }
 
-  .concordia-posts {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem;
-  }
+  .chulapa-card.concordia {
+    border: 2px solid #a884f3;
+    box-shadow: 0 0 12px rgba(168, 132, 243, 0.4);
+    background-color: #2e1f47;
 
-  .concordia-post {
-    background-color: #34495e;
-    padding: 1.5rem;
-    border-radius: 0.75rem;
-    border: 1px solid #ff6f61;
-    box-shadow: 0 0 10px rgba(255, 111, 97, 0.2);
+    .card-body {
+      p {
+        line-height: 1.6;
+      }
 
-    h2 {
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
-      color: #ff6f61;
-      font-family: 'Lora', serif;
-      text-shadow: 0 0 4px rgba(255, 111, 97, 0.3);
-    }
+      .card-title a {
+        color: #d6c4f3;
+        text-shadow: 0 0 4px rgba(214, 196, 243, 0.3);
+        font-weight: bold;
 
-    .post-date {
-      font-size: 0.9rem;
-      color: #d4af37;
-      margin-bottom: 1rem;
-    }
+        &:hover {
+          color: #ffdf6b;
+          text-decoration: none;
+        }
+      }
 
-    p {
-      font-size: 1rem;
-      line-height: 1.6;
-    }
+      .card-text small {
+        color: #ffdf6b; // Dorado mágico
+      }
 
-    .read-more {
-      display: inline-block;
-      margin-top: 1rem;
-      color: #ff6f61;
-      text-decoration: underline;
-      font-weight: bold;
+      .btn-outline-secondary {
+        border-color: #a884f3;
+        color: #a884f3;
 
-      &:hover {
-        text-decoration: none;
-        color: #d4af37;
+        &:hover {
+          border-color: #ffdf6b;
+          background-color: #ffdf6b;
+          color: #1c1428;
+        }
       }
     }
   }
+}
+// Estilo para las citas específicas de Concordia
+.concordia-cita {
+  font-family: 'IM Fell English SC', serif;
+  font-style: italic;
+  border-left: 4px solid #a884f3; // Lavanda mágica
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: #e0d8f1; // Blanco arcano
+  background-color: rgba(168, 132, 243, 0.1); // Fondo tenue lavanda
+  border-radius: 8px;
+  text-shadow: 0 0 4px rgba(168, 132, 243, 0.2);
+}
+
+.concordia-cita-footer {
+  font-family: 'Cardo', serif;
+  font-size: 0.9rem;
+  text-align: right;
+  color: #ffdf6b; // Dorado suave
+  font-weight: bold;
+  text-shadow: 0 0 2px rgba(255, 223, 107, 0.3);
 }
 
 // -------------------------------
@@ -323,155 +334,172 @@ body {
 // -------------------------------
 .arcana-card.tecnocracia {
   border: 2px solid #00ffe7;
+  background-color: #1f4068;
   box-shadow: 0 0 12px rgba(0, 255, 231, 0.3);
 
   h2 {
     font-family: 'Orbitron', sans-serif;
     color: #00ffe7;
-    text-shadow: 0 0 6px rgba(0, 255, 231, 0.5);
+    text-shadow: 0 0 6px rgba(0, 255, 231, 0.3);
   }
 }
-
 .tecnocracia-section {
   padding: 3rem 2rem;
   background-color: #0b1a2b;
-  color: #fdf6e3;
-  font-family: 'Arial', sans-serif;
+  color: #cce6ff;
+  font-family: 'Orbitron', sans-serif;
 
-  .tecnocracia-header {
-    text-align: center;
-
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-      font-weight: 600;
-      color: #00ffe7;
-      text-shadow: 0 0 6px rgba(0, 255, 231, 0.3);
-    }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', sans-serif;
+    color: #00ffe7;
+    text-shadow: 0 0 6px rgba(0, 255, 231, 0.3);
   }
 
-  .tecnocracia-posts {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem;
-  }
-
-  .tecnocracia-post {
+  .chulapa-card.tecnocracia {
+    border: 2px solid #00ffe7;
+    box-shadow: 0 0 12px rgba(0, 255, 231, 0.3);
     background-color: #1f4068;
-    padding: 1.5rem;
-    border-radius: 0.75rem;
-    border: 1px solid #00ffe7;
-    box-shadow: 0 0 10px rgba(0, 255, 231, 0.2);
 
-    h2 {
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
-      color: #00ffe7;
-      font-family: 'Orbitron', sans-serif;
-      text-shadow: 0 0 4px rgba(0, 255, 231, 0.3);
-    }
+    .card-body {
+      p {
+        line-height: 1.6;
+      }
 
-    .post-date {
-      font-size: 0.9rem;
-      color: #d4af37;
-      margin-bottom: 1rem;
-    }
+      .card-title a {
+        color: #00ffe7;
+        text-shadow: 0 0 4px rgba(0, 255, 231, 0.3);
+        font-weight: bold;
 
-    p {
-      font-size: 1rem;
-      line-height: 1.6;
-    }
+        &:hover {
+          color: #d4af37;
+          text-decoration: none;
+        }
+      }
 
-    .read-more {
-      display: inline-block;
-      margin-top: 1rem;
-      color: #00ffe7;
-      text-decoration: underline;
-      font-weight: bold;
-
-      &:hover {
-        text-decoration: none;
+      .card-text small {
         color: #d4af37;
+      }
+
+      .btn-outline-secondary {
+        border-color: #00ffe7;
+        color: #00ffe7;
+
+        &:hover {
+          border-color: #d4af37;
+          background-color: #d4af37;
+          color: #0b1a2b;
+        }
       }
     }
   }
+}
+
+// Estilo para las citas específicas de la Tecnocracia
+.tecnocracia-cita {
+  font-family: 'Orbitron', sans-serif;
+  font-style: italic;
+  border-left: 4px solid #00ffe7; // Cian brillante para la Tecnocracia
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: #cce6ff; // Azul claro para el texto
+  background-color: rgba(0, 255, 231, 0.05); // Fondo sutil cian
+  border-radius: 8px;
+  text-shadow: 0 0 4px rgba(0, 255, 231, 0.3); // Efecto brillante sutil
+}
+
+.tecnocracia-cita-footer {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.85rem;
+  text-align: right;
+  color: #00ffe7; // Cian para el autor
+  font-weight: bold;
+  text-shadow: 0 0 2px rgba(0, 255, 231, 0.3);
 }
 
 // -------------------------------
 // Tierra
 // -------------------------------
 .arcana-card.tierra {
-  border: 2px solid #a3be8c;
-  box-shadow: 0 0 12px rgba(163, 190, 140, 0.3);
+  border: 2px solid #6bbe55;
+  background-color: #1d2a1f;
+  box-shadow: 0 0 12px rgba(107, 190, 85, 0.3);
 
   h2 {
-    font-family: 'Roboto', sans-serif;
-    color: #a3be8c;
-    text-shadow: 0 0 6px rgba(163, 190, 140, 0.5);
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #a3f78c;
+    text-shadow: 0 0 6px rgba(107, 190, 85, 0.3);
   }
 }
 
 .tierra-section {
   padding: 3rem 2rem;
-  background-color: #3b4d2e;
-  color: #fdf6e3;
-  font-family: 'Roboto', sans-serif;
+  background-color: #0f1a12;
+  color: #dcefd6;
+  font-family: 'IBM Plex Sans', sans-serif;
 
-  .tierra-header {
-    text-align: center;
-
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-      font-weight: 600;
-      color: #a3be8c;
-      text-shadow: 0 0 6px rgba(163, 190, 140, 0.3);
-    }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #a3f78c;
+    text-shadow: 0 0 6px rgba(107, 190, 85, 0.3);
   }
 
-  .tierra-posts {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem;
-  }
+  .chulapa-card.tierra {
+    border: 2px solid #6bbe55;
+    box-shadow: 0 0 12px rgba(107, 190, 85, 0.3);
+    background-color: #1d2a1f;
 
-  .tierra-post {
-    background-color: #4f5d3e;
-    padding: 1.5rem;
-    border-radius: 0.75rem;
-    border: 1px solid #a3be8c;
-    box-shadow: 0 0 10px rgba(163, 190, 140, 0.2);
+    .card-body {
+      p {
+        line-height: 1.6;
+      }
 
-    h2 {
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
-      color: #a3be8c;
-      font-family: 'Roboto', sans-serif;
-      text-shadow: 0 0 4px rgba(163, 190, 140, 0.3);
-    }
+      .card-title a {
+        color: #a3f78c;
+        text-shadow: 0 0 4px rgba(107, 190, 85, 0.3);
+        font-weight: bold;
 
-    .post-date {
-      font-size: 0.9rem;
-      color: #d4af37;
-      margin-bottom: 1rem;
-    }
+        &:hover {
+          color: #f1c40f;
+          text-decoration: none;
+        }
+      }
 
-    p {
-      font-size: 1rem;
-      line-height: 1.6;
-    }
+      .card-text small {
+        color: #f1c40f;
+      }
 
-    .read-more {
-      display: inline-block;
-      margin-top: 1rem;
-      color: #a3be8c;
-      text-decoration: underline;
-      font-weight: bold;
+      .btn-outline-secondary {
+        border-color: #6bbe55;
+        color: #6bbe55;
 
-      &:hover {
-        text-decoration: none;
-        color: #d4af37;
+        &:hover {
+          border-color: #f1c40f;
+          background-color: #f1c40f;
+          color: #0f1a12;
+        }
       }
     }
   }
+}
+
+// Estilo para las citas específicas de Tierra
+.tierra-cita {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: italic;
+  border-left: 4px solid #6bbe55; // Verde vibrante para Tierra
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: #dcefd6; // Verde muy claro para el texto
+  background-color: rgba(107, 190, 85, 0.05); // Fondo verde sutil
+  border-radius: 8px;
+  text-shadow: 0 0 4px rgba(107, 190, 85, 0.3); // Brillo sutil
+}
+
+.tierra-cita-footer {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.85rem;
+  text-align: right;
+  color: #6bbe55; // Verde medio para el autor
+  font-weight: bold;
+  text-shadow: 0 0 2px rgba(107, 190, 85, 0.3);
 }

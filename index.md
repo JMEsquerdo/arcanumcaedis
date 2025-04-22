@@ -17,7 +17,7 @@ custom_title: true
     <img src="assets/img/PuestoAvanzada.webp" alt="Puesto de avanzada tecnocrático con estructuras futuristas" class="sr-only" loading="lazy">
   </a>
 
-  <a href="/{{ site.baseurl }}/concordia" class="arcana-card lazy-bg concordia" style="background-image: url('assets/img/Concordia_mini.webp');" data-bg="assets/img/Concordia.webp" aria-label="Explora Concordia, la ciudad mágica de los Herméticos">
+  <a href="{{ site.baseurl }}/concordia" class="arcana-card lazy-bg concordia" style="background-image: url('assets/img/Concordia_mini.webp');" data-bg="assets/img/Concordia.webp" aria-label="Explora Concordia, la ciudad mágica de los Herméticos">
     <h2>Concordia</h2>
     <img src="assets/img/Concordia.webp" alt="Concordia, una ciudad llena de magia y misterios" class="sr-only" loading="lazy">
   </a>
