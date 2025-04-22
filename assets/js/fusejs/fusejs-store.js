@@ -14,16 +14,6 @@ var store = [{
         "url": "https://jmesquerdo.github.io/arcanumcaedis/archive",
         "img": null
       },{
-        "title": "First post!",
-        "subtitle": "",
-        "excerpt": "<p>This is my first post, how exciting!</p>",
-        "content": "This is my first post, how exciting!",
-        "categories": [],
-        "date": "2015-01-04",
-        "tags": ["random","exciting-stuff"],
-        "url": "https://jmesquerdo.github.io/arcanumcaedis/20150104_first-post/",
-        "img": null
-      },{
         "title": "Fanáticos",
         "subtitle": "",
         "excerpt": "<p>“Cita súper importante sobre las naciones de los fanáticos”</p>",
@@ -32,26 +22,6 @@ var store = [{
         "date": "2015-01-15",
         "tags": ["Naciones","Arcanum"],
         "url": "https://jmesquerdo.github.io/arcanumcaedis/20150115_pirates/",
-        "img": null
-      },{
-        "title": "Soccer",
-        "subtitle": "Best sport ever!",
-        "excerpt": "<p>From Wikipedia:</p>",
-        "content": "From Wikipedia: Association football, more commonly known as football or soccer,[2] is a sport played between two teams of eleven players with a spherical ball. It is played by 250...",
-        "categories": [],
-        "date": "2015-01-19",
-        "tags": ["random","exciting-stuff","wikipedia"],
-        "url": "https://jmesquerdo.github.io/arcanumcaedis/20150119_soccer/",
-        "img": null
-      },{
-        "title": "Dear diary",
-        "subtitle": "",
-        "excerpt": "<p>What is it with that Mary girl?  Dragging me to school every day. As if I had a choice.  What you don’t hear in those nursery rhymes is that she starves me if I don’t go to school with her; it’s the only way I can stay alive!  I’m thinking about being adopted by Little Bo Peep, sure I may get lost, but anything is better than being with Mary and those little brats at school (shudder, shudder).</p>",
-        "content": "What is it with that Mary girl? Dragging me to school every day. As if I had a choice. What you don’t hear in those nursery rhymes is that she...",
-        "categories": [],
-        "date": "2015-01-27",
-        "tags": ["random","diary","school","manuscript"],
-        "url": "https://jmesquerdo.github.io/arcanumcaedis/20150127_dear-diary/",
         "img": null
       },{
         "title": "To be",
@@ -114,16 +84,6 @@ var store = [{
         "url": "https://jmesquerdo.github.io/arcanumcaedis/20191127_acueduct-of-segovia/",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Acueducto_Segovia_noche.JPG/1024px-Acueducto_Segovia_noche.JPG"
       },{
-        "title": "Current skin",
-        "subtitle": "Showing al the different Bootstrap components available",
-        "excerpt": "<p>This is a demo page showing the different components of Bootstrap and how they look on this site under the current configuration.</p>",
-        "content": "This is a demo page showing the different components of Bootstrap and how they look on this site under the current configuration. Previous The Acueduct of Segovia The Acueduct o......",
-        "categories": ["skins"],
-        "date": "2020-12-31",
-        "tags": ["skin","bootstrap","current-theme","header-hero","image","demo"],
-        "url": "https://jmesquerdo.github.io/arcanumcaedis/20201231_current-skin/",
-        "img": "https://picsum.photos/id/1018/2000/2000"
-      },{
         "title": "Arcanum Caedis",
         "subtitle": "",
         "excerpt": "<p>“Lo que he encontrado es algo que solo podría haber nacido de un sueño trastornado o de un pecado aún mayor.”</p>",
@@ -134,12 +94,52 @@ var store = [{
         "url": "https://jmesquerdo.github.io/arcanumcaedis/20250416_Arcanum-Caedis/",
         "img": "https://jmesquerdo.github.io/arcanumcaedis/assets/img/ArcanumInterna.webp"
       },{
+        "title": "Blabla tecnocracia",
+        "subtitle": "",
+        "excerpt": "<p>“La tecnología lo es todo.”  — Iteración X haciendo cosas</p>",
+        "content": "\"La tecnología lo es todo.\"   — Iteración X haciendo cosas                  Torre del Vacío          Más blabla de la tecnocracia...        Leer más",
+        "categories": ["blog","tecnocracia"],
+        "date": "2025-04-22",
+        "tags": [],
+        "url": "https://jmesquerdo.github.io/arcanumcaedis/20250422_blablatecnocracia/",
+        "img": null
+      },{
+        "title": "Blabla Magos",
+        "subtitle": "",
+        "excerpt": "<p>“La Magia no es una herramienta: es la manifestación de la voluntad superior del alma.”  — Directiva de la Iteración Central</p>",
+        "content": "\"La Magia no es una herramienta: es la manifestación de la voluntad superior del alma.\" — Directiva de la Iteración Central Torre del Vacío Más blabla de la concordia... Leer...",
+        "categories": ["blog","concordia"],
+        "date": "2025-04-22",
+        "tags": [],
+        "url": "https://jmesquerdo.github.io/arcanumcaedis/20250422_concordia/",
+        "img": null
+      },{
+        "title": "La Tierra",
+        "subtitle": "",
+        "excerpt": "<p>“La Magia no es una herramienta: es la manifestación de la voluntad superior del alma.”  — Directiva de la Iteración Central</p>",
+        "content": "\"La Magia no es una herramienta: es la manifestación de la voluntad superior del alma.\" — Directiva de la Iteración Central Torre del Vacío Más blabla de la tierra... Leer...",
+        "categories": ["blog","tierra"],
+        "date": "2025-04-22",
+        "tags": [],
+        "url": "https://jmesquerdo.github.io/arcanumcaedis/20250422_latierra/",
+        "img": null
+      },{
+        "title": "Puesto de Avanzada",
+        "subtitle": "",
+        "excerpt": "<p>“La tecnología no es una herramienta: es la manifestación de la voluntad de orden sobre el caos.”  — Directiva de la Iteración Central</p>",
+        "content": "\"La tecnología no es una herramienta: es la manifestación de la voluntad de orden sobre el caos.\" — Directiva de la Iteración Central En el lado opuesto de Arcanum Caedis,...",
+        "categories": ["blog","tecnocracia"],
+        "date": "2025-04-22",
+        "tags": [],
+        "url": "https://jmesquerdo.github.io/arcanumcaedis/20250422_puestodeavanzada/",
+        "img": null
+      },{
         "title": "Markdown cheatsheet",
         "subtitle": "The basic syntax of your page",
         "excerpt": "<p>A demo page checking Markdown</p>",
         "content": "What’s Markdown? Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one...",
         "categories": ["tutorial"],
-        "date": "2025-04-17",
+        "date": "2025-04-22",
         "tags": ["starter","syntax","markdown"],
         "url": "https://jmesquerdo.github.io/arcanumcaedis/cheatsheets/01-markdown-cheat-sheet",
         "img": null
@@ -149,7 +149,7 @@ var store = [{
         "excerpt": "<p>kramdown supercharges Markdown with some interesting features.</p>",
         "content": "What’s kramdown? kramdown supercharges Markdown with some interesting features. kramdown is the default Jekyll Markdown processor. When creating your site with Jekyll, you can use the standard Markdown syntax plus...",
         "categories": ["tutorial"],
-        "date": "2025-04-17",
+        "date": "2025-04-22",
         "tags": ["starter","syntax","kramdown"],
         "url": "https://jmesquerdo.github.io/arcanumcaedis/cheatsheets/02-kramdown-cheat-sheet",
         "img": null
