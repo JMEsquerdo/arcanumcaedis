@@ -67,12 +67,14 @@ navbar:
     url: null
     img: null
   nav:
-    - title: Blog
-      url: /blog/
-    - title: Arcanum
+    - title: Arcanum Caedis
       url: /arcanum/
-    - title: Cheatsheets
-      url: /cheatsheets
+    - title: Puesto de Avanzada
+      url: /puestoavanzada/
+    - title: Concordia
+      url: /concordia/
+    - title: La Tierra
+      url: /tierra/
     - title: Extras
       child:
         - title: Tags
