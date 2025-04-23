@@ -5,7 +5,7 @@ categories: [blog, tierra]
 
 <blockquote class="tierra-cita">
   "La Magia no es una herramienta: es la manifestación de la voluntad superior del alma."
-  <footer class="tierra-cita-footer">— Directiva de la Iteración Central</footer>
+  <footer class="tierra-cita-footer">— Texto random</footer>
 </blockquote>
 
 <section class="tierra-section">
