@@ -3,7 +3,7 @@
 	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
 	<link href="https://jmesquerdo.github.io/arcanumcaedis/atom.xml" rel="self" type="application/atom+xml" />
 	<link href="https://jmesquerdo.github.io/arcanumcaedis" rel="alternate" type="text/html" />
-	<updated>2025-04-23T17:07:08+02:00</updated>
+	<updated>2025-04-23T17:59:30+02:00</updated>
 	<id>https://jmesquerdo.github.io/arcanumcaedis/atom.xml</id>
 	<title>Arcanum Caedis</title>
 	
@@ -59,10 +59,12 @@
 		<content type="html" xml:base="https://jmesquerdo.github.io/arcanumcaedis/20250422_latierra/">
 		
   		
+			&lt;img src=&#39;https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Acueducto_Segovia_noche.JPG/1024px-Acueducto_Segovia_noche.JPG&#39; &gt;
+			
 	&lt;p&gt;1 min.&lt;/p&gt;
 			&lt;blockquote class=&quot;tierra-cita&quot;&gt;
   &quot;La Magia no es una herramienta: es la manifestación de la voluntad superior del alma.&quot;
-  &lt;footer class=&quot;tierra-cita-footer&quot;&gt;— Directiva de la Iteración Central&lt;/footer&gt;
+  &lt;footer class=&quot;tierra-cita-footer&quot;&gt;— Texto random&lt;/footer&gt;
 &lt;/blockquote&gt;
 
 &lt;section class=&quot;tierra-section&quot;&gt;
@@ -81,7 +83,7 @@
 			<name>Arcanum Caedis</name></author>
 		<summary type="html">&lt;blockquote class=&quot;tierra-cita&quot;&gt;
   &quot;La Magia no es una herramienta: es la manifestación de la voluntad superior del alma.&quot;
-  &lt;footer class=&quot;tierra-cita-footer&quot;&gt;— Directiva de la Iteración Central&lt;/footer&gt;
+  &lt;footer class=&quot;tierra-cita-footer&quot;&gt;— Texto random&lt;/footer&gt;
 &lt;/blockquote&gt;
 </summary>
 		<category term="posts"/>

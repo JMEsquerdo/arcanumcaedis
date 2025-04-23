@@ -116,13 +116,13 @@ var store = [{
       },{
         "title": "La Tierra",
         "subtitle": "",
-        "excerpt": "<p>“La Magia no es una herramienta: es la manifestación de la voluntad superior del alma.”  — Directiva de la Iteración Central</p>",
-        "content": "\"La Magia no es una herramienta: es la manifestación de la voluntad superior del alma.\" — Directiva de la Iteración Central Torre del Vacío Más blabla de la tierra... Leer...",
+        "excerpt": "<p>“La Magia no es una herramienta: es la manifestación de la voluntad superior del alma.”  — Texto random</p>",
+        "content": "\"La Magia no es una herramienta: es la manifestación de la voluntad superior del alma.\"   — Texto random                  Torre del Vacío          Más blabla de la tierra...        Leer más",
         "categories": ["blog","tierra"],
         "date": "2025-04-22",
         "tags": [],
         "url": "https://jmesquerdo.github.io/arcanumcaedis/20250422_latierra/",
-        "img": null
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Acueducto_Segovia_noche.JPG/1024px-Acueducto_Segovia_noche.JPG"
       },{
         "title": "Puesto de Avanzada",
         "subtitle": "",

@@ -7,8 +7,8 @@
 		<description>Todo sobre Arcanum Caelis</description>
 		<language>es-ES</language>
 		<copyright>(c) 2025, Arcanum Caedis</copyright>	
-		<pubDate>Wed, 23 Apr 2025 17:07:08 +0200</pubDate>
-		<lastBuildDate>Wed, 23 Apr 2025 17:07:08 +0200</lastBuildDate>
+		<pubDate>Wed, 23 Apr 2025 17:59:30 +0200</pubDate>
+		<lastBuildDate>Wed, 23 Apr 2025 17:59:30 +0200</lastBuildDate>
 		<category>blog</category>
 		<ttl>60</ttl>
 		<atom:link href="https://jmesquerdo.github.io/arcanumcaedis/rss.xml" rel="self" type="application/rss+xml" />
@@ -53,7 +53,7 @@
     		<p>1 min.</p>
 				<div><blockquote class="tierra-cita">
   "La Magia no es una herramienta: es la manifestación de la voluntad superior del alma."
-  <footer class="tierra-cita-footer">— Directiva de la Iteración Central</footer>
+  <footer class="tierra-cita-footer">— Texto random</footer>
 </blockquote>
 
 <section class="tierra-section">
@@ -70,7 +70,9 @@
 			</description>
 			<link>https://jmesquerdo.github.io/arcanumcaedis/20250422_latierra/</link>
 			<category>posts</category>
-		    <guid isPermaLink="true">https://jmesquerdo.github.io/arcanumcaedis/20250422_latierra/</guid>
+		    <media:title type="html"><![CDATA[La Tierra ]]></media:title>
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Acueducto_Segovia_noche.JPG/1024px-Acueducto_Segovia_noche.JPG" medium="image"/>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Acueducto_Segovia_noche.JPG/1024px-Acueducto_Segovia_noche.JPG" /><guid isPermaLink="true">https://jmesquerdo.github.io/arcanumcaedis/20250422_latierra/</guid>
       <pubDate>Tue, 22 Apr 2025 00:00:00 +0200</pubDate>
 		</item><item>
 			<title>Blabla Magos</title>
