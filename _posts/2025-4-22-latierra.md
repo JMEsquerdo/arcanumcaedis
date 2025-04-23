@@ -1,5 +1,7 @@
 ---
 title: La Tierra
+header_type: splash
+header_img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Acueducto_Segovia_noche.JPG/1024px-Acueducto_Segovia_noche.JPG"
 categories: [blog, tierra] 
 ---
 
