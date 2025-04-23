@@ -1,6 +1,6 @@
 ---
-title: La Tierra
-categories: [blog, tierra] 
+layout: tierra
+categories: [tierra] 
 ---
 
 <blockquote class="tierra-cita">

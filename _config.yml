@@ -1,7 +1,6 @@
 ---
 github:
   - metadata
-remote_theme: dieghernan/chulapa
 locale: es-ES
 title: Arcanum Caedis
 title_separator: null
